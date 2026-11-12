@@ -47,6 +47,11 @@ for (const f of readdirSync(casesDir).filter((f) => f.endsWith('.yaml'))) {
     if (opts.length) {
       const best = opts.filter((o) => o.rating === 'best').length;
       if (best !== 1) err(f, `stage "${s.id}" should have exactly one "best" option (has ${best})`);
+      // Length cue: the best answer must not stand out as the longest option.
+      const bestOpt = opts.find((o) => o.rating === 'best');
+      const otherMax = Math.max(...opts.filter((o) => o !== bestOpt).map((o) => String(o.text).length));
+      if (bestOpt && String(bestOpt.text).length > otherMax * 1.15 + 3)
+        err(f, `stage "${s.id}": the best option is noticeably longer than the others (${String(bestOpt.text).length} vs ${otherMax} characters) - shorten it and move detail into its feedback`);
       for (const o of opts) {
         if (!RATINGS.has(o.rating)) err(f, `stage "${s.id}": invalid rating "${o.rating}"`);
         if (!o.feedback) err(f, `stage "${s.id}": an option has no feedback`);
@@ -60,6 +65,15 @@ for (const f of readdirSync(casesDir).filter((f) => f.endsWith('.yaml'))) {
   }
   for (const r of c.references || []) if (!bibKeys.has(r)) err(f, `unknown reference "${r}"`);
   if (!errors) console.log(`✓ ${f}`);
+}
+
+// Same length check for the quiz
+const quiz = yaml.load(readFileSync(join(root, 'content/quiz/core-knowledge.yaml'), 'utf8'));
+for (const it of quiz.items) {
+  const correct = it.options.filter((o) => o.correct);
+  if (correct.length !== 1) err('quiz', `${it.id} should have exactly one correct option`);
+  const otherMax = Math.max(...it.options.filter((o) => !o.correct).map((o) => String(o.text).length));
+  if (correct[0] && String(correct[0].text).length > otherMax * 1.15 + 3) err('quiz', `${it.id}: the correct option is noticeably longer than the others`);
 }
 
 if (errors) { console.error(`\n${errors} problem(s) found.`); process.exit(1); }

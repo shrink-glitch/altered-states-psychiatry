@@ -26,17 +26,23 @@ stages:
       The mother-in-law tells you the problem started "because her family did some black magic". The husband says he just wants her to be normal again. Lakshmi says very little in front of them.
     question: What is the most important first step?
     options:
-      - text: Interview Lakshmi alone, as well as with the family, and take a full history including her own account of the episodes and her life since the marriage
+      - text: "Interview Lakshmi alone as well"
         rating: best
         feedback: |
-          Correct. Possession states in young married women in India are strongly associated with family conflict, loss of support and sometimes violence. She is unlikely to tell you any of this in front of her in-laws. Seeing her alone is standard practice, not a special measure.
-      - text: Explain to the family that possession is not real and that this is a psychiatric illness
+          **This option in full:** Interview Lakshmi alone, as well as with the family, and take a full history including her own account of the episodes and her life since the marriage.
+
+          Possession states in young married women in India are strongly associated with family conflict, loss of support and sometimes violence. She is unlikely to tell you any of this in front of her in-laws. Seeing her alone is standard practice, not a special measure.
+      - text: "Tell the family possession isn't real"
         rating: poor
         feedback: |
+          **This option in full:** Explain to the family that possession is not real and that this is a psychiatric illness.
+
           This alienates the family, contradicts the healer who referred her in good faith, and gives you nothing clinically. The meaning of the experience is not what you need to settle.
-      - text: Start a low-dose antipsychotic, since she is hearing and speaking with a goddess
+      - text: "Start a low-dose antipsychotic now"
         rating: unsafe
         feedback: |
+          **This option in full:** Start a low-dose antipsychotic, since she is hearing and speaking with a goddess.
+
           Nothing so far suggests psychosis. Speaking *as* another identity during a discrete altered state is not the same as hallucinations or delusions in clear consciousness. Antipsychotics carry real harms and would treat the wrong problem.
     guide_links: ["clinical-stance#history", "frameworks#icd11"]
 
@@ -50,19 +56,23 @@ stages:
       Neurological history: no childhood seizures, no injuries, no tongue biting, incontinence or injury during episodes.
     question: Which diagnosis best fits?
     options:
-      - text: Possession trance disorder (ICD-11 6B63), with depressive symptoms, in the context of marked family stress
+      - text: "Possession trance disorder"
         rating: best
         feedback: |
-          Correct. The episodes are involuntary, the usual identity is replaced by an external "possessing" identity, they are distressing and repeated, and they occur at home outside any shared ritual setting - so they are not accepted as part of a collective cultural or religious practice. Her depressive symptoms need assessment in their own right.
-      - text: Schizophrenia
+          **This option in full:** Possession trance disorder (ICD-11 6B63), with depressive symptoms, in the context of marked family stress.
+
+          The episodes are involuntary, the usual identity is replaced by an external "possessing" identity, they are distressing and repeated, and they occur at home outside any shared ritual setting - so they are not accepted as part of a collective cultural or religious practice. Her depressive symptoms need assessment in their own right.
+      - text: "Schizophrenia, first episode"
         rating: poor
         feedback: |
           There are no psychotic symptoms between episodes, no thought disorder, no negative symptoms, and no decline. The altered states are discrete and time-limited.
-      - text: No disorder - possession by a deity is a normal religious experience in her culture
+      - text: "No disorder - culturally normal possession"
         rating: poor
         feedback: |
+          **This option in full:** No disorder - possession by a deity is a normal religious experience in her culture.
+
           Possession can be normal - when it is voluntary, sanctioned and expected, as in ritual settings. Here it is involuntary, frightening to her, repeated at home, and causing distress. The cultural meaning is real; so is the disorder.
-      - text: Focal epilepsy
+      - text: "Focal epilepsy with impaired awareness"
         rating: acceptable
         feedback: |
           Worth keeping in mind for any episodic altered state. But the episodes are long (20-40 minutes), situational (at home, at dusk, around conflict), with complex speech and no stereotyped motor features. An EEG is reasonable if anything is atypical, but it is not the leading diagnosis.
@@ -76,17 +86,23 @@ stages:
       You are concerned about her mood, her isolation and the push from her mother-in-law.
     question: What do you do about the possible abuse?
     options:
-      - text: Ask about it directly and privately, assess her immediate safety, tell her about support available (including one-stop centres and the women's helpline, 181), and document carefully - without confronting the family on her behalf unless she agrees
+      - text: "Ask privately and offer support options"
         rating: best
         feedback: |
-          Correct. She is an adult and decides what happens next, but she needs to know her options and that you will listen. Confronting the family without her agreement can increase her risk at home.
-      - text: Tell the husband and mother-in-law what she said, so they can change
+          **This option in full:** Ask about it directly and privately, assess her immediate safety, tell her about support available (including one-stop centres and the women's helpline, 181), and document carefully - without confronting the family on her behalf unless she agrees.
+
+          She is an adult and decides what happens next, but she needs to know her options and that you will listen. Confronting the family without her agreement can increase her risk at home.
+      - text: "Tell her in-laws what she disclosed"
         rating: unsafe
         feedback: |
+          **This option in full:** Tell the husband and mother-in-law what she said, so they can change.
+
           This breaches her confidence and may put her at greater risk when she returns home.
-      - text: Leave it - she has said she was not hit, and family matters are outside your role
+      - text: "Leave it - family matters aren't your role"
         rating: poor
         feedback: |
+          **This option in full:** Leave it - she has said she was not hit, and family matters are outside your role.
+
           Being pushed, isolation and control are part of the picture and directly relevant to her symptoms. Asking safely is part of a psychiatric assessment.
     guide_links: ["red-flags#red-flags"]
 
@@ -96,15 +112,17 @@ stages:
       Lakshmi wants to stay in the marriage but wants things to change. The family wants the episodes to stop. The healer has offered to keep seeing her.
     question: What is the best plan?
     options:
-      - text: Psychological treatment focused on her stressors and coping, family sessions (with her consent) on workload and contact with her parents, treatment of depression if it persists, and accepting the healer's continued involvement as long as no harmful practices are used
+      - text: "Stress-focused therapy and family work"
         rating: best
         feedback: |
-          Correct. Dissociative disorders respond to addressing the stressors that drive them. Family work that allows regular contact with her parents is often the most powerful single change. Healer involvement can support engagement - but ask specifically about beating, starvation, chaining or other harmful rituals.
-      - text: Antipsychotic to stop the episodes
+          **This option in full:** Psychological treatment focused on her stressors and coping, family sessions (with her consent) on workload and contact with her parents, treatment of depression if it persists, and accepting the healer's continued involvement as long as no harmful practices are used.
+
+          Dissociative disorders respond to addressing the stressors that drive them. Family work that allows regular contact with her parents is often the most powerful single change. Healer involvement can support engagement - but ask specifically about beating, starvation, chaining or other harmful rituals.
+      - text: "Antipsychotic to stop the episodes"
         rating: poor
         feedback: |
           There is no evidence that antipsychotics treat dissociative episodes, and they add side effects. Antidepressants may be considered for clear depression, but medication is not the core treatment here.
-      - text: Advise the family to stop all contact with the healer
+      - text: "Advise stopping all contact with the healer"
         rating: poor
         feedback: |
           The healer referred her appropriately and the family trusts them. Forcing a choice usually means the family chooses the healer and stops coming to you.
@@ -116,14 +134,16 @@ stages:
       A month later you are asked about a different person: a 40-year-old man in north Kerala who performs **Theyyam**. During the annual ritual performance he is believed by the whole community to become the deity, speaks and blesses as the deity for several hours, and returns to himself afterwards. He functions well, has no distress, and has done this for 20 years.
     question: How would you classify this?
     options:
-      - text: Possession trance disorder
+      - text: "Possession trance disorder"
         rating: poor
         feedback: |
           The ICD-11 diagnosis requires that the state is not accepted as part of a collective cultural or religious practice. This is the opposite: a voluntary, expected, valued ritual role.
-      - text: No mental disorder - a culturally sanctioned, voluntary ritual trance
+      - text: "No mental disorder"
         rating: best
         feedback: |
-          Correct. Same phenomenon, different context. The context - voluntary or not, sanctioned or not, distressing or not - decides whether it is a disorder.
+          **This option in full:** No mental disorder - a culturally sanctioned, voluntary ritual trance.
+
+          Same phenomenon, different context. The context - voluntary or not, sanctioned or not, distressing or not - decides whether it is a disorder.
     guide_links: ["frameworks#icd11"]
     end: true
 

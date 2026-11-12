@@ -76,9 +76,15 @@ export default function CaseRunner({ caseData }) {
                 <legend>
                   <Html as="span" html={s.questionHtml} />
                 </legend>
+                {answered && a !== undefined && s.options[a].rating !== 'best' && (
+                  <p className="wrong-note" role="status">
+                    Not the best answer. Why yours falls short, and the best answer with its explanation, are shown below.
+                  </p>
+                )}
                 {s.options.map((o, oi) => {
                   const chosen = a === oi;
-                  const reveal = answered && (chosen || showAll[s.id]);
+                  const missedBest = answered && a !== undefined && o.rating === 'best' && s.options[a].rating !== 'best';
+                  const reveal = answered && (chosen || missedBest || showAll[s.id]);
                   const r = RATING[o.rating] || RATING.poor;
                   return (
                     <div key={oi} className={`option ${reveal ? r.cls : ''} ${chosen ? 'chosen' : ''}`}>
@@ -88,7 +94,9 @@ export default function CaseRunner({ caseData }) {
                       </button>
                       {reveal && (
                         <div className="feedback">
-                          <strong className="rating">{r.label}</strong>
+                          <strong className="rating">
+                            {missedBest ? 'The best answer' : (chosen ? 'Your answer - ' : '') + r.label}
+                          </strong>
                           <Html html={o.feedbackHtml} />
                         </div>
                       )}
@@ -97,7 +105,7 @@ export default function CaseRunner({ caseData }) {
                 })}
                 {answered && !showAll[s.id] && (
                   <button type="button" className="link-btn" onClick={() => setShowAll({ ...showAll, [s.id]: true })}>
-                    Show feedback for all options
+                    Show feedback for the other options
                   </button>
                 )}
               </fieldset>

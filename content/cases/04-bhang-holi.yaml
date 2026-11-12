@@ -26,17 +26,21 @@ stages:
       Rohan is pacing and asks you repeatedly whether the police have been called. Vital signs: pulse 112, blood pressure 138/86, temperature normal. Pupils normal size, reactive. No focal neurological signs.
     question: What is your immediate approach?
     options:
-      - text: A calm, low-stimulus space; reassure him and his parents; check for other substances and medical causes; offer an oral benzodiazepine if distress or agitation does not settle
+      - text: "Calm, reassure, benzodiazepine if needed"
         rating: best
         feedback: |
-          Correct. Most acute cannabis-related distress settles with time and reassurance. A benzodiazepine is first line for agitation. Check what else was taken - bhang preparations and party drinks can contain alcohol or other substances.
-      - text: Rapid tranquillisation with intramuscular haloperidol
+          **This option in full:** A calm, low-stimulus space; reassure him and his parents; check for other substances and medical causes; offer an oral benzodiazepine if distress or agitation does not settle.
+
+          Most acute cannabis-related distress settles with time and reassurance. A benzodiazepine is first line for agitation. Check what else was taken - bhang preparations and party drinks can contain alcohol or other substances.
+      - text: "IM haloperidol for rapid tranquillisation"
         rating: poor
         feedback: |
           He is distressed but cooperative. Intramuscular medication should be reserved for severe agitation that does not respond to calmer measures. Restraint and injections also frighten a paranoid young man further.
-      - text: Discharge with advice to sleep it off - it is just bhang
+      - text: "Discharge him to sleep it off at home"
         rating: unsafe
         feedback: |
+          **This option in full:** Discharge with advice to sleep it off - it is just bhang.
+
           He is still psychotic two days later, with poor sleep. That is beyond ordinary intoxication and needs assessment and follow-up.
     guide_links: ["differentials#cannabis"]
     pearl: |
@@ -48,15 +52,17 @@ stages:
       Urine drug screen is positive for cannabinoids only. Bloods are normal. By the next morning he has slept with a benzodiazepine but is still convinced his room is bugged.
     question: What is the best working diagnosis?
     options:
-      - text: Cannabis intoxication
+      - text: "Prolonged cannabis intoxication only"
         rating: poor
         feedback: |
           Intoxication from bhang can last many hours, but persistent paranoid delusions for three days go beyond it.
-      - text: Cannabis-induced psychotic disorder - keeping primary psychosis under review
+      - text: "Cannabis-induced psychotic disorder"
         rating: best
         feedback: |
-          Correct. Psychotic symptoms started during cannabis use and have persisted beyond intoxication. If symptoms continue for more than about a month after stopping, a primary psychotic disorder becomes more likely and the diagnosis should be revisited.
-      - text: Schizophrenia
+          **This option in full:** Cannabis-induced psychotic disorder - keeping primary psychosis under review.
+
+          Psychotic symptoms started during cannabis use and have persisted beyond intoxication. If symptoms continue for more than about a month after stopping, a primary psychotic disorder becomes more likely and the diagnosis should be revisited.
+      - text: "First-episode schizophrenia"
         rating: poor
         feedback: |
           Far too early. He has had three days of symptoms with a clear precipitant. But the previous paranoid episode six months ago is a warning sign worth noting.
@@ -68,17 +74,23 @@ stages:
       His symptoms resolve over 10 days with sleep support and a short course of low-dose antipsychotic. His parents ask, *"So it was just the bhang? He'll be fine now?"*
     question: What do you tell them?
     options:
-      - text: Yes - once it has worn off there is no further risk
+      - text: "Yes - there is no risk once it has worn off"
         rating: poor
         feedback: |
+          **This option in full:** Yes - once it has worn off there is no further risk.
+
           This is false reassurance. A large Danish registry study found that almost half of people with cannabis-induced psychosis were later diagnosed with schizophrenia or bipolar disorder.
-      - text: He has recovered well, but cannabis-induced psychosis carries a substantial risk of later schizophrenia or bipolar disorder, especially in young people; stopping cannabis lowers his risk, and he needs follow-up for at least a few years
+      - text: "Real risk of later psychosis; follow up"
         rating: best
         feedback: |
-          Correct. In the Danish registry study by Starzer and colleagues (2018), 47% of people with cannabis-induced psychosis later converted to schizophrenia or bipolar disorder, and young age increased the risk. Half the conversions to schizophrenia happened within about three years.
-      - text: He definitely has schizophrenia now and needs lifelong medication
+          **This option in full:** He has recovered well, but cannabis-induced psychosis carries a substantial risk of later schizophrenia or bipolar disorder, especially in young people; stopping cannabis lowers his risk, and he needs follow-up for at least a few years.
+
+          In the Danish registry study by Starzer and colleagues (2018), 47% of people with cannabis-induced psychosis later converted to schizophrenia or bipolar disorder, and young age increased the risk. Half the conversions to schizophrenia happened within about three years.
+      - text: "He now has schizophrenia for life"
         rating: poor
         feedback: |
+          **This option in full:** He definitely has schizophrenia now and needs lifelong medication.
+
           Overstating the risk is also harmful. Many people do not convert. Honest uncertainty and follow-up are the right approach.
     guide_links: ["differentials#cannabis"]
 
@@ -88,17 +100,23 @@ stages:
       Alone with you, Rohan says: *"Everyone has bhang at Holi. It's part of the festival. It's not even illegal."*
     question: How do you respond?
     options:
-      - text: Agree that bhang has a long cultural place and is regulated differently from ganja, then explain that his own brain has now reacted twice, so for him the risk is real; discuss avoiding all cannabis, how to decline at festivals, and what early warning signs to watch for
+      - text: "Make it about his own brain's risk"
         rating: best
         feedback: |
-          Correct. Bhang (made from cannabis leaves) is excluded from the NDPS Act's definition of cannabis and is regulated by individual states, so his point is partly right. Arguing about legality wastes the conversation. Make it personal and practical.
-      - text: Tell him cannabis is illegal and he could be arrested
+          **This option in full:** Agree that bhang has a long cultural place and is regulated differently from ganja, then explain that his own brain has now reacted twice, so for him the risk is real; discuss avoiding all cannabis, how to decline at festivals, and what early warning signs to watch for.
+
+          Bhang (made from cannabis leaves) is excluded from the NDPS Act's definition of cannabis and is regulated by individual states, so his point is partly right. Arguing about legality wastes the conversation. Make it personal and practical.
+      - text: "Warn him that he could be arrested"
         rating: poor
         feedback: |
+          **This option in full:** Tell him cannabis is illegal and he could be arrested.
+
           Partly inaccurate for bhang, and fear-based messages rarely work in young people. He will stop listening.
-      - text: Say a little at festivals is fine as long as he avoids smoking it
+      - text: "A little at festivals is fine for him"
         rating: unsafe
         feedback: |
+          **This option in full:** Say a little at festivals is fine as long as he avoids smoking it.
+
           He has had two psychotic reactions to cannabis. There is no safe amount for him, and edible forms are harder to control, not easier.
     guide_links: ["clinical-stance#language"]
     end: true

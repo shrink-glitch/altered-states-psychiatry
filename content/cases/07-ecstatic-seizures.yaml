@@ -24,15 +24,19 @@ stages:
       Thomas is articulate and has no unusual beliefs outside the episodes. He does not think God is sending him a special mission; he simply describes the experience.
     question: Which questions matter most?
     options:
-      - text: How long each episode lasts, how often, whether they are stereotyped, what happens just before (warning sensations), what others observe, and how he is afterwards - plus history of febrile seizures, head injury or family epilepsy
+      - text: "Duration, warning signs, what others see"
         rating: best
         feedback: |
-          Correct. Brief, stereotyped episodes with a warning, impaired awareness, automatisms such as lip-smacking, and post-episode confusion are the signature of focal seizures. The religious content is the least specific part of the history.
-      - text: Explore the content of his religious beliefs in detail to test for delusions
+          **This option in full:** How long each episode lasts, how often, whether they are stereotyped, what happens just before (warning sensations), what others observe, and how he is afterwards - plus history of febrile seizures, head injury or family epilepsy.
+
+          Brief, stereotyped episodes with a warning, impaired awareness, automatisms such as lip-smacking, and post-episode confusion are the signature of focal seizures. The religious content is the least specific part of the history.
+      - text: "Explore his beliefs to test for delusions"
         rating: poor
         feedback: |
+          **This option in full:** Explore the content of his religious beliefs in detail to test for delusions.
+
           He has no delusions between episodes. The form of the episodes - brief, stereotyped, with automatisms - is far more informative than the content.
-      - text: Screen for mania
+      - text: "Screen for mania or hypomania"
         rating: acceptable
         feedback: |
           A reasonable screen in anyone with euphoric experiences, but an episode lasting about a minute with lip-smacking and confusion afterwards is not mania.
@@ -46,15 +50,17 @@ stages:
       He had **febrile seizures** at age 2.
     question: What is the most likely diagnosis?
     options:
-      - text: Focal epilepsy with ecstatic auras, progressing at times to focal impaired-awareness seizures
+      - text: "Focal epilepsy with ecstatic auras"
         rating: best
         feedback: |
-          Correct. The epigastric rising sensation, déjà vu, automatisms, impaired awareness, post-ictal confusion and a history of febrile seizures all point to focal epilepsy, often temporal or insular. Picard and Craig (2009) described ecstatic seizures with heightened self-awareness and linked them to the anterior insula.
-      - text: Religious delusions
+          **This option in full:** Focal epilepsy with ecstatic auras, progressing at times to focal impaired-awareness seizures.
+
+          The epigastric rising sensation, déjà vu, automatisms, impaired awareness, post-ictal confusion and a history of febrile seizures all point to focal epilepsy, often temporal or insular. Picard and Craig (2009) described ecstatic seizures with heightened self-awareness and linked them to the anterior insula.
+      - text: "Religious delusions with hyperreligiosity"
         rating: unsafe
         feedback: |
           There are no fixed false beliefs. Missing epilepsy here leaves a man with impaired-awareness seizures driving a car.
-      - text: Panic attacks
+      - text: "Panic attacks with derealisation"
         rating: poor
         feedback: |
           Panic is fearful, not blissful, and does not cause automatisms or impaired awareness.
@@ -66,17 +72,23 @@ stages:
       Thomas is reluctant: *"If you treat this, will I lose the experience? It is the closest I have been to God."*
     question: What is the best plan?
     options:
-      - text: Refer to neurology for EEG (including a sleep-deprived recording if the first is normal) and epilepsy-protocol MRI; advise him not to drive until reviewed, in line with legal requirements; and talk openly about his fear of losing the experience
+      - text: "Neurology work-up; no driving for now"
         rating: best
         feedback: |
-          Correct. Safety comes first: impaired-awareness seizures make driving dangerous, and Indian law treats epilepsy as relevant to fitness to drive. His attachment to the experience is real and may affect whether he takes treatment, so discuss it rather than dismiss it. Faith does not depend on the seizures, and his church community may help him see this.
-      - text: Prescribe an antipsychotic for hyperreligiosity
+          **This option in full:** Refer to neurology for EEG (including a sleep-deprived recording if the first is normal) and epilepsy-protocol MRI; advise him not to drive until reviewed, in line with legal requirements; and talk openly about his fear of losing the experience.
+
+          Safety comes first: impaired-awareness seizures make driving dangerous, and Indian law treats epilepsy as relevant to fitness to drive. His attachment to the experience is real and may affect whether he takes treatment, so discuss it rather than dismiss it. Faith does not depend on the seizures, and his church community may help him see this.
+      - text: "Antipsychotic for hyperreligiosity"
         rating: unsafe
         feedback: |
+          **This option in full:** Prescribe an antipsychotic for hyperreligiosity.
+
           Wrong diagnosis, wrong drug. Some antipsychotics also lower the seizure threshold.
-      - text: Respect his wish and take no further action, since the episodes are pleasant
+      - text: "No action - the episodes are pleasant"
         rating: unsafe
         feedback: |
+          **This option in full:** Respect his wish and take no further action, since the episodes are pleasant.
+
           He has had a seizure while driving. Untreated focal seizures can also progress to bilateral tonic-clonic seizures.
     guide_links: ["differentials#epilepsy", "clinical-stance#language"]
     end: true

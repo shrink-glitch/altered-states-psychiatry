@@ -1,0 +1,160 @@
+title: Enlightenment on day seven
+subtitle: A 26-year-old software engineer is brought in from a 10-day silent meditation retreat.
+tags: [Meditation, Acute psychosis]
+status: draft          # draft | published | hidden
+minutes: 15
+authors: [Dr Gokul Raj]
+reviewers: []
+last_reviewed: 2026-11
+learning_objectives:
+  - Prioritise safety and sleep over the question of what the experience "means"
+  - Apply Lukoff's criteria correctly, as prognostic indicators and not as a reason to withhold treatment
+  - Recognise acute and transient psychotic disorder and plan follow-up for its diagnostic instability
+  - Advise on a safe return to meditation practice
+
+vignette: |
+  **Arjun**, 26, is a software engineer in Bengaluru. He has no psychiatric history. He went to a 10-day residential silent meditation course: about 10 hours of meditation a day, a 4 a.m. wake-up, no talking, and a light evening meal.
+
+  On **day 7** the course managers noticed he was not sleeping and was walking the grounds at night. By **day 9** he was telling other students he had "crossed over" and could hear their thoughts. The course managers called his parents, who brought him to your outpatient department that evening.
+
+  His mother says: *"He was always calm and hard-working. Now he says he is enlightened, but he is also crying and frightened. His uncle had a breakdown once - they gave him injections."*
+
+stages:
+  - id: first-priority
+    title: First contact
+    body: |
+      Arjun is restless but cooperative. He smiles and says, *"Doctor, I don't need medicine. This is what the Buddha experienced. You wouldn't understand."* His father asks whether you can "just give him something to sleep and send him back to finish the course".
+    question: What is your first priority?
+    options:
+      - text: Reassure the family that this is a recognised spiritual awakening and that it should be allowed to run its course
+        rating: unsafe
+        feedback: |
+          You have not assessed risk, sleep, intake or a medical cause yet. Accepting the patient's or family's explanation before assessment is the "romanticising" error. Several published cases of meditation-associated psychosis needed admission.
+      - text: Do a full assessment - risk, sleep and intake, mental state, substance use and a basic medical screen - and take collateral history
+        rating: best
+        feedback: |
+          Correct. Whatever the experience means to Arjun, the clinical questions are safety, function and whether there is a treatable disorder. Collateral is essential here: he may under-report, and his family has already given you a possible family history.
+      - text: Start an antipsychotic straight away - the content is clearly delusional
+        rating: poor
+        feedback: |
+          You may well end up prescribing, but not before assessment. Starting treatment without a mental state examination, risk assessment and medical screen misses organic causes and loses Arjun's trust at the first contact.
+      - text: Advise the family to contact the meditation teacher, who will know best how to handle it
+        rating: poor
+        feedback: |
+          The teacher can be a useful ally later, with Arjun's consent. But the course managers have already recognised this as beyond their scope - that is why he is in front of you.
+    guide_links: ["clinical-stance#language", "red-flags#red-flags"]
+
+  - id: assessment
+    title: Assessment findings
+    body: |
+      **Sleep:** about 2 hours a night for 4 nights. Eating little.
+      **Substances:** occasional weekend cannabis; last use about 3 weeks before the course. No alcohol for 2 weeks. Urine drug screen pending.
+      **Mental state:**
+      - Mood shifts within the interview, from ecstatic laughter to fearful tears
+      - Rapidly changing delusional themes: enlightenment, then "dark energies" in the hall trying to pull him back, then that the doctors are testing him
+      - Hears his late grandfather's voice giving reassurance; no commands to harm
+      - Perplexed at times; oriented to time, place and person
+      - No suicidal ideation; no thoughts of harming others
+
+      **Collateral:** a maternal uncle was admitted once in his thirties "for a few weeks" and recovered; no further details. Arjun has had no previous episodes of depression or elation.
+    question: |
+      Arjun meets several of [Lukoff's criteria](guide:frameworks#lukoff) for mystical experience with psychotic features - good premorbid functioning, acute onset, a clear precipitant. What does this tell you?
+    options:
+      - text: The experience is mystical rather than psychotic, so medication should be avoided
+        rating: unsafe
+        feedback: |
+          This is the most common misuse of Lukoff's criteria. They were proposed as **prognostic** indicators - they suggest the episode is likely to resolve well. They do not say the person is safe now. Arjun has had 4 nights of near-total sleep loss and is frightened and perplexed. That needs treating.
+      - text: The prognosis is likely to be good, but the current state still needs active management
+        rating: best
+        feedback: |
+          Correct. Good premorbid functioning, acute onset and a clear precipitant are all good prognostic signs - which is useful and reassuring to tell the family. But prognosis and present need are separate questions.
+      - text: They are irrelevant - once there are hallucinations it is psychosis and the spiritual framing should be ignored
+        rating: poor
+        feedback: |
+          Hallucinations do occur in non-pathological religious experience in many cultures, and dismissing the framing outright will cost you Arjun's engagement. The criteria are relevant; they just answer a different question from the one about treatment.
+    guide_links: ["frameworks#lukoff"]
+    pearl: |
+      One phrase that families accept well: *"The good news is that everything about how this started suggests he will recover fully. Right now, his brain needs sleep before anything else."*
+
+  - id: diagnosis
+    title: Working diagnosis
+    body: |
+      Bloods (full blood count, electrolytes, glucose, thyroid function) are normal. Urine drug screen is negative.
+    question: What is the most appropriate working diagnosis?
+    options:
+      - text: Schizophrenia
+        rating: poor
+        feedback: |
+          There is no prodrome, no functional decline before the course, and the duration so far is a few days. ICD-11 schizophrenia needs symptoms for at least one month. It is too early, and the label carries consequences.
+      - text: Acute and transient psychotic disorder (ICD-11 6A23), precipitated by intensive meditation and sleep deprivation
+        rating: best
+        feedback: |
+          Correct. Abrupt onset, rapidly changing polymorphic symptoms, mood fluctuation and perplexity fit ATPD well. It is also the most common diagnosis in published case series of meditation-associated psychosis.
+      - text: Cannabis-induced psychotic disorder
+        rating: poor
+        feedback: |
+          Last use was about 3 weeks before onset, and the urine screen is negative. Cannabis may have added to his vulnerability, and it is worth discussing, but it does not explain this episode.
+      - text: Religious or spiritual problem (DSM-5-TR Z65.8), with no mental disorder
+        rating: poor
+        feedback: |
+          Z65.8 is for when no disorder better explains the picture. Here there are clear psychotic symptoms with sleep and functional breakdown. You can still talk respectfully about the spiritual meaning of the experience alongside the diagnosis.
+      - text: Bipolar I disorder, current episode manic with psychotic features
+        rating: acceptable
+        feedback: |
+          A reasonable differential to keep open, especially with the uncle's history. But there is no sustained elevated mood, no pressured speech and no overactivity - his mood is shifting within minutes, and he is exhausted by the lack of sleep rather than energised. Keep reviewing.
+    guide_links: ["differentials#atpd", "differentials#mania"]
+
+  - id: management
+    title: Management
+    body: |
+      Arjun is now more settled with his parents present. He agrees to stay at home with family supervision. He is reluctant about medication: *"If I take your tablets, I'll lose what I found."*
+    question: Which plan is most appropriate?
+    options:
+      - text: Low-dose antipsychotic plus short-term sleep support, pause meditation practice, family psychoeducation, and review within a few days
+        rating: best
+        feedback: |
+          Correct. Restore sleep first. Use the lowest effective antipsychotic dose. Frame stopping intensive practice as grounding - most contemplative traditions recommend this themselves. Review early, because these presentations can change fast.
+      - text: Explain firmly that the experience was purely a symptom of illness and has no spiritual meaning, so that he accepts treatment
+        rating: poor
+        feedback: |
+          This usually backfires. You do not need to rule on the meaning of the experience to treat the sleep loss and psychosis. Try instead: *"What it means is yours to work out. My job is to make sure you're safe and sleeping while you do."*
+      - text: Admit him involuntarily
+        rating: acceptable
+        feedback: |
+          Admission is right if risk rises, intake fails, or home supervision is not workable. At present he is cooperating, has no risk to self or others, and has a supportive family. Least restrictive care is appropriate, with a clear plan if things worsen.
+      - text: Sleep medication only, and let him return to finish the course once he sleeps
+        rating: unsafe
+        feedback: |
+          Sending him back to 10 hours of daily meditation with ongoing psychotic symptoms risks relapse and a longer episode. The course is also likely to decline him in this state.
+    guide_links: ["red-flags#principles", "clinical-stance#language"]
+
+  - id: follow-up
+    title: Three weeks later
+    body: |
+      Arjun has slept normally for 2 weeks. The psychotic symptoms have resolved. He has some insight: *"I think I pushed too hard - but something real happened too."* He wants to sit another 10-day course in two months and asks how long he needs to stay on the medication.
+    question: What do you advise?
+    options:
+      - text: Never meditate again
+        rating: poor
+        feedback: |
+          Unrealistic, and it will damage the relationship. Many people return to practice safely. The question is how, and when.
+      - text: Wait until well for several months before any residential retreat; shorter supervised practice meanwhile; agree early warning signs with the family; disclose his history on any course application; plan a gradual taper and at least a year of follow-up
+        rating: best
+        feedback: |
+          Correct. ATPD is diagnostically unstable - some patients go on to receive a diagnosis of schizophrenia or bipolar disorder - so follow-up matters even after full recovery. Sleep loss is usually the first warning sign. Many residential meditation courses ask about psychiatric history; honest disclosure protects him.
+      - text: He can go to the course in two months as long as he stays on the antipsychotic
+        rating: poor
+        feedback: |
+          Medication does not make 10 days of intensive practice and reduced sleep safe this soon after an episode. And it commits him to a longer course of antipsychotics than ATPD usually needs.
+    guide_links: ["red-flags#return", "differentials#atpd"]
+    end: true
+
+teaching_points:
+  - Separate **what the experience means** (the patient's question) from **safety, sleep and function** (the clinician's question).
+  - Lukoff's criteria are **prognostic**. Meeting them is good news for the long term. It is not a reason to withhold treatment now.
+  - Meditation-associated psychosis most often presents as **acute and transient psychotic disorder**, with sleep deprivation, fasting and isolation as common precipitants.
+  - Restoring sleep is often the most effective first step, and the easiest one for families to accept.
+  - ATPD is **diagnostically unstable** - follow up for at least a year.
+  - Plan a graded, supervised return to practice instead of forbidding it.
+
+references: [lukoff1985, kuijpers2007, sharma2022meditation, lindahl2017, icd11]

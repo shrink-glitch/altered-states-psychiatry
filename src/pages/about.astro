@@ -1,0 +1,16 @@
+---
+import Base from '../layouts/Base.astro';
+import { Content as Disclaimer } from '../../docs/DISCLAIMER.md';
+import { Content as Editorial } from '../../docs/EDITORIAL_POLICY.md';
+---
+<Base title="About">
+  <h1>About this resource</h1>
+  <p class="lede">
+    An open, peer-reviewed case library for psychiatry trainees on presentations that involve religious, spiritual or
+    psychedelic experience. It is built to support the stance set out in the WPA Position Statement on Spirituality and
+    Religion in Psychiatry (2016): take these experiences seriously, assess them carefully, and neither pathologise them
+    by default nor miss illness when it is there.
+  </p>
+  <section class="prose" id="editorial"><Editorial /></section>
+  <section class="prose" id="disclaimer"><Disclaimer /></section>
+</Base>

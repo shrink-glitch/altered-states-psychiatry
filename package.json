@@ -1,0 +1,21 @@
+{
+  "name": "altered-states-psychiatry",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Open case library on religious, spiritual and psychedelic presentations in psychiatric practice",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "validate": "node scripts/validate-cases.mjs"
+  },
+  "dependencies": {
+    "@astrojs/react": "^7.1.8",
+    "astro": "^5.18.2",
+    "js-yaml": "^5.5.0",
+    "marked": "^18.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

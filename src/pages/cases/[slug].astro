@@ -1,0 +1,37 @@
+---
+import Base from '../../layouts/Base.astro';
+import CaseRunner from '../../components/CaseRunner.jsx';
+import { getCases } from '../../lib/content.js';
+
+export function getStaticPaths() {
+  return getCases().map((c) => ({ params: { slug: c.slug }, props: { c } }));
+}
+const { c } = Astro.props;
+---
+<Base title={c.title} description={c.subtitle}>
+  <article class="case">
+    <p class="eyebrow">{c.tags?.join(' · ')}</p>
+    <h1>{c.title}</h1>
+    <p class="lede">{c.subtitle}</p>
+    {c.status === 'draft' && (
+      <p class="notice">Draft case - not yet peer reviewed. Content may change.</p>
+    )}
+    <div class="case-meta">
+      <div>
+        <h2 class="h-small">Learning objectives</h2>
+        <ul>{c.objectives.map((o) => <li>{o}</li>)}</ul>
+      </div>
+      <dl>
+        <dt>Authors</dt><dd>{c.authors?.join(', ')}</dd>
+        {c.reviewers?.length > 0 && <><dt>Peer reviewers</dt><dd>{c.reviewers.join(', ')}</dd></>}
+        <dt>Last reviewed</dt><dd>{c.last_reviewed}</dd>
+        <dt>Time</dt><dd>About {c.minutes} minutes</dd>
+      </dl>
+    </div>
+    <section class="vignette">
+      <h2 class="h-small">Presentation</h2>
+      <div class="prose" set:html={c.vignetteHtml} />
+    </section>
+    <CaseRunner client:load caseData={c} />
+  </article>
+</Base>

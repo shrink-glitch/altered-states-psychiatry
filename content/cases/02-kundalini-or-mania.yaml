@@ -1,0 +1,142 @@
+title: Fire up the spine
+subtitle: A 38-year-old yoga teacher says her Kundalini has awakened. Her husband is not so sure.
+tags: [Yoga and Kundalini, Mania]
+status: draft
+minutes: 15
+authors: [Dr Gokul Raj]
+reviewers: []
+last_reviewed: 2026-11
+learning_objectives:
+  - Use collateral history and the decreased-need-for-sleep question to separate mania from a spiritual crisis
+  - Recognise past depression and antidepressant exposure as pointers to a bipolar diathesis
+  - Consider organic differentials when there are involuntary movements
+  - Manage mania while working respectfully within the patient's spiritual framework
+
+vignette: |
+  **Meera**, 38, teaches yoga in Mysuru. Six months ago she received initiation from a teacher and began an intensive Kundalini kriya practice, about 3 hours a day.
+
+  For the past **3 weeks** she has felt *"heat rising up my spine"*, has had sudden jerking movements of her arms and trunk during and after practice, and laughs or cries without warning. She says her Kundalini has awakened and she now understands her life's purpose.
+
+  She comes in with her husband, who asked for the appointment. She is cheerful and says she is here *"to reassure him"*.
+
+stages:
+  - id: initial
+    title: Getting the history
+    body: |
+      Meera talks fluently and warmly about her experiences. She describes the energy sensations in detail and says the jerks are *"kriyas - the body cleansing itself"*. She denies any problem. *"I've never felt so well."*
+    question: What is the most useful next step?
+    options:
+      - text: Accept her account - she is articulate, insightful and describes classic Kundalini phenomena
+        rating: poor
+        feedback: |
+          Fluent, articulate and cheerful is exactly how many people in hypomania or mania present. Somatic energy-like sensations are commonly reported by meditators and are not, by themselves, a disorder. But you cannot judge the whole picture from her account alone.
+      - text: Interview the husband separately for collateral history, and ask Meera specifically about sleep and how she feels when she sleeps less
+        rating: best
+        feedback: |
+          Correct. Collateral is essential in any suspected elation - patients rarely report their own manic symptoms. The single most useful question is about **decreased need for sleep without tiredness**.
+      - text: Refer her back to her teacher, since this is a recognised stage of practice in her tradition
+        rating: poor
+        feedback: |
+          Her husband brought her because he is worried. Hear his concerns first. The teacher may be a useful ally later, with her consent.
+    guide_links: ["clinical-stance#history", "differentials#mania"]
+
+  - id: collateral
+    title: Collateral history
+    body: |
+      **Her husband, seen alone:**
+      - She has been sleeping about 3 hours a night for 2 weeks and *"is up at 2 a.m. cleaning the house or writing"* - but she is not tired
+      - She talks much faster than usual and is hard to interrupt
+      - Last week she pledged ₹2 lakh of their savings to the ashram. She says money is an attachment
+      - She has started three new online yoga courses and stopped sleeping at regular times
+
+      **Past history:** after the birth of their son 8 years ago she had a severe depression, treated by a GP with sertraline for about a year. No episodes since. Her father "had a temper and periods of big spending".
+
+      Meera, asked directly, agrees she sleeps 3 hours: *"I don't need more. The energy sustains me."*
+    question: How do you now understand the presentation?
+    options:
+      - text: Spiritual emergency - the sleep and spending changes are part of the transformation she describes
+        rating: unsafe
+        feedback: |
+          Spiritual emergency is not a diagnosis and has no validated criteria. Decreased need for sleep without fatigue, pressured speech, increased activity and impulsive spending of savings are the core features of mania, whatever their framing.
+      - text: Probable manic episode (bipolar I) with spiritual content, with the Kundalini practice possibly acting as a precipitant
+        rating: best
+        feedback: |
+          Correct. Past postpartum depression, antidepressant exposure, a suggestive family history, and a 2-week episode of decreased need for sleep, pressured speech, increased activity and reckless spending make bipolar disorder the leading diagnosis. The spiritual content shapes the presentation; it does not explain it.
+      - text: Generalised anxiety with somatic symptoms
+        rating: poor
+        feedback: |
+          She is not anxious. She is euphoric, energised and sleeping little without fatigue.
+    guide_links: ["differentials#mania", "frameworks#spiritual-emergency"]
+    pearl: |
+      **"Do you feel tired when you sleep less?"** Someone in a spiritual crisis with poor sleep is usually exhausted. Someone in mania usually is not. It is one of the best questions you can ask.
+
+  - id: movements
+    title: The jerks
+    body: |
+      Meera describes the movements as sudden, jerking movements of the arms and trunk, mainly during or soon after practice, with no loss of awareness and no tongue biting or incontinence. Her husband has seen them and says she talks through them.
+    question: Do the movements need further workup?
+    options:
+      - text: No - they are recognised kriyas in her tradition
+        rating: poor
+        feedback: |
+          They may well be. But involuntary movements with altered experience should prompt you to think about epilepsy - particularly temporal lobe epilepsy, which is classically associated with ecstatic or religious auras.
+      - text: Take a focused history, examine neurologically, and arrange an EEG if anything in the history or examination is atypical
+        rating: best
+        feedback: |
+          Correct. Preserved awareness, talking through the movements and a clear link to practice are reassuring. But the threshold for an EEG should be low, and a normal neurological examination should be documented.
+      - text: Urgent MRI brain before any other management
+        rating: acceptable
+        feedback: |
+          Not unreasonable if you have concerns, but with a reassuring history it should not delay treatment of the mania. EEG is the more targeted first test for episodic movements.
+    guide_links: ["differentials#organic"]
+
+  - id: management
+    title: Management
+    body: |
+      Bloods, including thyroid function, are normal. Urine drug screen is negative. Meera does not think she is unwell, but she trusts her husband and is willing to keep talking to you. She says: *"If you tell me this is madness, I'm leaving."*
+    question: What is the best approach?
+    options:
+      - text: Tell her plainly that Kundalini is not real and this is bipolar disorder
+        rating: poor
+        feedback: |
+          She has told you exactly what will make her leave. You do not need to rule on Kundalini to treat mania.
+      - text: Use common ground - sleep, protecting the family's savings, and her own tradition's caution about forcing practice - to agree a plan including a mood stabiliser, pausing intensive practice, and close review; involve her teacher if she consents
+        rating: best
+        feedback: |
+          Correct. Most yoga and meditation traditions warn against forcing or rushing energetic practices, and many teachers will support a pause. Restoring sleep and protecting finances are goals she and her husband may both accept. Start a mood stabiliser according to standard guidelines, and avoid antidepressants.
+      - text: Restart sertraline, since her original problem was depression
+        rating: unsafe
+        feedback: |
+          Starting an antidepressant in a manic episode risks worsening it. Her history of depression is a reason to suspect bipolar disorder, not a reason to treat with an SSRI now.
+      - text: Watch and wait for two weeks, since she is not at risk
+        rating: poor
+        feedback: |
+          She has already pledged a large part of the family's savings and has slept 3 hours a night for 2 weeks. Untreated mania can escalate quickly, and the financial and relational harm is already real.
+    guide_links: ["red-flags#principles", "clinical-stance#language"]
+
+  - id: counterfactual
+    title: What if the collateral had been different?
+    body: |
+      Imagine instead that her husband had said: *"She sleeps 7 hours, she's tired after practice, she's working and looking after our son as usual - she just keeps talking about these sensations and I find it strange."* Her past history is clear, and the movements stop when she rests from practice.
+    question: How would your management change?
+    options:
+      - text: The same - start a mood stabiliser
+        rating: poor
+        feedback: |
+          There would be no evidence of a mood disorder or psychosis. Medicating would be pathologising a religious experience.
+      - text: No disorder - note a religious or spiritual problem (Z65.8) if it is a focus of concern, offer psychoeducation and a less intensive practice schedule, agree warning signs, and offer follow-up
+        rating: best
+        feedback: |
+          Correct. Energy-like somatic sensations are common among intensive practitioners. With preserved sleep, function and insight, the right response is respectful support, a lighter practice schedule, and a clear route back if things change.
+    guide_links: ["frameworks#dsm", "clinical-stance#why"]
+    end: true
+
+teaching_points:
+  - The content of an experience (Kundalini, awakening, divine mission) does **not** decide the diagnosis. The form does - sleep, energy, speech, behaviour and function.
+  - "**Decreased need for sleep without fatigue** is one of the most useful questions for separating mania from a spiritual crisis."
+  - Past depression (especially postpartum), antidepressant exposure and family history point towards **bipolar disorder**.
+  - Always get **collateral history** when elation is possible.
+  - Involuntary movements with altered experience warrant a low threshold for **neurological assessment and EEG**.
+  - The same sensations with preserved sleep and function need **support, not medication**.
+
+references: [sharma2022kundalini, greyson1993, lindahl2017, grof1989, dsm5tr]

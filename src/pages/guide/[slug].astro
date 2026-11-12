@@ -1,0 +1,36 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getGuidePages, formatRef, url } from '../../lib/content.js';
+
+export function getStaticPaths() {
+  const pages = getGuidePages();
+  return pages.map((p, i) => ({ params: { slug: p.slug }, props: { p, prev: pages[i - 1], next: pages[i + 1] } }));
+}
+const { p, prev, next } = Astro.props;
+const { Content } = p;
+const refs = (p.references || []).map(formatRef);
+---
+<Base title={p.title} description={p.summary}>
+  <article class="guide-page">
+    <p class="eyebrow"><a href={url('guide/')}>Differential guide</a></p>
+    <h1>{p.title}</h1>
+    <p class="lede">{p.summary}</p>
+    {p.sections?.length > 0 && (
+      <nav class="toc" aria-label="On this page">
+        <span>On this page:</span>
+        {p.sections.map((s) => <a href={`#${s.id}`}>{s.title}</a>)}
+      </nav>
+    )}
+    <div class="prose guide-body"><Content /></div>
+    {refs.length > 0 && (
+      <section>
+        <h2>References</h2>
+        <ol class="refs">{refs.map((r) => <li set:html={r.html} />)}</ol>
+      </section>
+    )}
+    <nav class="pager">
+      {prev ? <a href={url(`guide/${prev.slug}/`)}>← {prev.title}</a> : <span />}
+      {next ? <a href={url(`guide/${next.slug}/`)}>{next.title} →</a> : <span />}
+    </nav>
+  </article>
+</Base>

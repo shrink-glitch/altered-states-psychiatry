@@ -1,0 +1,19 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getGuidePages, url } from '../../lib/content.js';
+const pages = getGuidePages();
+---
+<Base title="Differential guide">
+  <h1>Differential guide</h1>
+  <p class="lede">The reference layer behind the cases. Read it straight through, or follow links from inside a case.</p>
+  <ol class="card-list numbered">
+    {pages.map((p) => (
+      <li class="card">
+        <a href={url(`guide/${p.slug}/`)}>
+          <strong>{p.title}</strong>
+          <span class="muted">{p.summary}</span>
+        </a>
+      </li>
+    ))}
+  </ol>
+</Base>

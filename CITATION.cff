@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this resource, please cite it as below."
+title: "Altered States in Psychiatric Practice: an open case library on religious, spiritual and psychedelic presentations"
+type: software
+version: 0.1.0
+date-released: 2026-11-12
+license: CC-BY-NC-SA-4.0
+authors:
+  - family-names: Raj
+    given-names: Gokul
+    # orcid: https://orcid.org/0000-0000-0000-0000
+keywords:
+  - psychiatry
+  - medical education
+  - spirituality
+  - religion
+  - psychedelics
+  - case-based learning

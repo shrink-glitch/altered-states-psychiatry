@@ -1,0 +1,12 @@
+---
+import Base from '../layouts/Base.astro';
+import Quiz from '../components/Quiz.jsx';
+import { getQuiz } from '../lib/content.js';
+const quiz = getQuiz();
+---
+<Base title="Core knowledge quiz">
+  <h1>{quiz.title}</h1>
+  <p class="lede">{quiz.description}</p>
+  <p class="notice">Your answers stay in your browser. Nothing is recorded by this site.</p>
+  <Quiz client:load quiz={quiz} />
+</Base>

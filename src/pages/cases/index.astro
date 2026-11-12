@@ -1,0 +1,21 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCases, url } from '../../lib/content.js';
+const cases = getCases();
+---
+<Base title="Cases">
+  <h1>Cases</h1>
+  <p class="lede">Work through each case in order. You cannot change an answer once chosen, but you can see the feedback for every option afterwards.</p>
+  <ul class="card-list">
+    {cases.map((c) => (
+      <li class="card">
+        <a href={url(`cases/${c.slug}/`)}>
+          <span class="tags">{c.tags?.join(' · ')} {c.status === 'draft' && <span class="badge">Draft - not yet peer reviewed</span>}</span>
+          <strong>{c.title}</strong>
+          <span class="muted">{c.subtitle}</span>
+          <span class="meta">{c.stages.length} steps · about {c.minutes} min</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+</Base>

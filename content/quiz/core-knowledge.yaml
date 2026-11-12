@@ -1,0 +1,91 @@
+title: Core knowledge quiz
+version: v1
+description: Eight questions on the core concepts in the guide. Use it as a pre-test before the cases and a post-test afterwards.
+items:
+  - id: q1
+    stem: Lukoff's criteria for mystical experience with psychotic features are best described as
+    options:
+      - text: Diagnostic criteria that distinguish mystical experience from psychosis
+      - text: Indicators of a good prognosis
+        correct: true
+      - text: Criteria for when antipsychotic treatment can be safely withheld
+      - text: DSM-5-TR criteria for a religious or spiritual problem
+    explanation: |
+      Lukoff (1985) proposed good premorbid functioning, acute onset within 3 months, a stressful precipitant and a positive exploratory attitude as indicators of a **good prognosis**. They do not tell you whether treatment is needed now.
+
+  - id: q2
+    stem: In DSM-5-TR, "Religious or Spiritual Problem" (Z65.8) is
+    options:
+      - text: A dissociative disorder
+      - text: A subtype of brief psychotic disorder
+      - text: A condition that may be a focus of clinical attention, not a mental disorder
+        correct: true
+      - text: A culture-bound syndrome
+    explanation: |
+      Z65.8 sits among "other conditions that may be a focus of clinical attention". It is not a mental disorder.
+
+  - id: q3
+    stem: Which single question best helps distinguish mania from a spiritual crisis with poor sleep?
+    options:
+      - text: "Do you hear voices?"
+      - text: "Do you feel tired when you sleep less?"
+        correct: true
+      - text: "Do you believe in God?"
+      - text: "Have you had a spiritual teacher?"
+    explanation: |
+      **Decreased need for sleep without fatigue** is characteristic of mania. People in a spiritual crisis who are not sleeping usually feel exhausted.
+
+  - id: q4
+    stem: For ICD-11 possession trance disorder, which feature is required?
+    options:
+      - text: The state occurs during a recognised religious festival
+      - text: The person has a family history of psychosis
+      - text: The state is involuntary and not accepted as part of a collective cultural or religious practice
+        correct: true
+      - text: The person has used a psychoactive substance
+    explanation: |
+      Possession states that are culturally sanctioned, expected and time-limited are not a disorder. ICD-11 requires that the state is involuntary, distressing or impairing, and **not accepted as part of a collective cultural or religious practice**.
+
+  - id: q5
+    stem: The most common diagnosis in published case series of meditation-associated psychosis is
+    options:
+      - text: Schizophrenia
+      - text: Acute and transient psychotic disorder (acute psychosis)
+        correct: true
+      - text: Delusional disorder
+      - text: Dissociative identity disorder
+    explanation: |
+      In Sharma and colleagues' individual patient data analysis (2022), acute psychosis was the most common diagnosis, followed by schizophrenia and mania.
+
+  - id: q6
+    stem: A 30-year-old with past postpartum depression treated with sertraline now presents with religious grandiosity, pressured speech and 3 hours' sleep a night. Which is the most appropriate treatment approach?
+    options:
+      - text: Restart sertraline
+      - text: Treat as probable bipolar mania - mood stabiliser, avoid antidepressants
+        correct: true
+      - text: Watchful waiting, as this may be a spiritual emergency
+      - text: Benzodiazepines alone
+    explanation: |
+      Past depression with antidepressant exposure and a current manic syndrome point to bipolar disorder. Antidepressants can worsen mania.
+
+  - id: q7
+    stem: Which condition is classically associated with ecstatic or religious auras and should be considered with brief stereotyped episodes?
+    options:
+      - text: Migraine without aura
+      - text: Temporal lobe epilepsy
+        correct: true
+      - text: Hypothyroidism
+      - text: Panic disorder
+    explanation: |
+      Temporal lobe epilepsy can present with ecstatic or religious auras. Keep a low threshold for EEG and neurological review.
+
+  - id: q8
+    stem: After full recovery from meditation-associated acute psychosis, the most appropriate advice about practice is
+    options:
+      - text: Never meditate again
+      - text: Return to intensive residential retreats as soon as symptoms resolve
+      - text: Avoid intensive retreats for several months, practise in shorter supervised sessions, and agree early warning signs
+        correct: true
+      - text: Meditation is safe as long as antipsychotic medication is continued indefinitely
+    explanation: |
+      A graded, supervised return with agreed warning signs (usually sleep loss first) is realistic and keeps the patient engaged.

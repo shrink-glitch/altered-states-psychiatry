@@ -1,0 +1,51 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCases, getGuidePages, url } from '../lib/content.js';
+const cases = getCases();
+const guide = getGuidePages();
+---
+<Base>
+  <section class="hero">
+    <p class="eyebrow">An open teaching resource for psychiatry trainees</p>
+    <h1>When the experience is religious, spiritual or drug-induced, and the question is whether it is illness</h1>
+    <p class="lede">
+      Interactive, case-based teaching on presentations at the edge of meditation, ritual, possession states, cannabis and
+      psychedelics. Each case walks through the decisions a clinician has to make, with feedback on every option and links
+      to a structured differential guide.
+    </p>
+    <div class="btn-row">
+      <a class="primary" href={url('cases/')}>Start with a case</a>
+      <a class="secondary" href={url('quiz/')}>Take the pre-test</a>
+    </div>
+  </section>
+
+  <section class="grid-2">
+    <div>
+      <h2>Cases</h2>
+      <ul class="card-list">
+        {cases.map((c) => (
+          <li class="card">
+            <a href={url(`cases/${c.slug}/`)}>
+              <span class="tags">{c.tags?.join(' · ')}</span>
+              <strong>{c.title}</strong>
+              <span class="muted">{c.subtitle}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+    <div>
+      <h2>Differential guide</h2>
+      <ul class="card-list">
+        {guide.map((g) => (
+          <li class="card">
+            <a href={url(`guide/${g.slug}/`)}>
+              <strong>{g.title}</strong>
+              <span class="muted">{g.summary}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+</Base>

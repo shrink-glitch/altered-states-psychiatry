@@ -1,0 +1,49 @@
+---
+import '../styles/global.css';
+import { url } from '../lib/content.js';
+const { title, description = 'Open case library on religious, spiritual and psychedelic presentations in psychiatric practice.' } = Astro.props;
+const path = Astro.url.pathname;
+const nav = [
+  { href: url('cases/'), label: 'Cases', match: '/cases' },
+  { href: url('guide/'), label: 'Differential guide', match: '/guide' },
+  { href: url('quiz/'), label: 'Quiz', match: '/quiz' },
+  { href: url('about/'), label: 'About', match: '/about' },
+];
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <link rel="icon" href={url('favicon.svg')} type="image/svg+xml" />
+    <title>{title ? `${title} | Altered States in Psychiatric Practice` : 'Altered States in Psychiatric Practice'}</title>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href={url('')}>
+          <span class="brand-mark" aria-hidden="true">◐</span>
+          <span>Altered States <em>in Psychiatric Practice</em></span>
+        </a>
+        <nav aria-label="Main">
+          {nav.map((n) => <a href={n.href} aria-current={path.includes(n.match) ? 'page' : undefined}>{n.label}</a>)}
+        </nav>
+      </div>
+    </header>
+    <main id="main" class="wrap">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>
+          <strong>For education only.</strong> Cases are fictional composites. This resource does not replace clinical
+          assessment, supervision or local guidelines, and does not provide guidance on obtaining or using any substance.
+          <a href={url('about/#disclaimer')}>Full disclaimer</a>.
+        </p>
+        <p class="muted">Content CC BY-NC-SA 4.0 · Code MIT</p>
+      </div>
+    </footer>
+  </body>
+</html>

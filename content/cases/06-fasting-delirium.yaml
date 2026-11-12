@@ -1,0 +1,111 @@
+title: Visions on the ninth day
+subtitle: A 71-year-old retired teacher sees the goddess at night after a nine-day fast. His family thinks it is a blessing.
+tags: [Fasting and pilgrimage, Delirium]
+status: draft
+minutes: 12
+authors: [Dr Gokul Raj]
+reviewers: []
+last_reviewed: 2026-11
+learning_objectives:
+  - Recognise delirium presenting with religious content in an older adult
+  - Identify common precipitants during fasting - low intake, dehydration, hyponatraemia, medication
+  - Manage delirium as a medical emergency and avoid labelling it as psychosis
+  - Plan safe religious fasting for the future with the patient and family
+
+vignette: |
+  **Mr Raghavan**, 71, is a retired schoolteacher. He has hypertension, treated with **hydrochlorothiazide** and amlodipine. He is devout and has just completed the **nine-day Navratri fast**, eating one small fruit meal a day and drinking large amounts of water and tea.
+
+  On the eighth night he woke his wife saying the goddess was standing in the corner of the room. Since then he has been talking about her visits, especially at night, and twice did not recognise his grandson. In the daytime he is sometimes his usual self. His family feels he has been **blessed**, but his daughter, a nurse, has insisted on bringing him in.
+
+stages:
+  - id: first
+    title: First assessment
+    body: |
+      In clinic he is drowsy at times, then suddenly animated. He loses track of your questions halfway through. He tells you the goddess has come because his fast was pure.
+    question: What is the most important thing to assess first?
+    options:
+      - text: Attention and level of consciousness - for example, months of the year backwards and a structured delirium screen - alongside vital signs and a medical review
+        rating: best
+        feedback: |
+          Correct. Fluctuating alertness, inattention and night-time visual hallucinations in an older adult are delirium until proven otherwise. Inattention is the core feature, and it can be tested in a minute.
+      - text: A detailed exploration of the religious meaning of the visions
+        rating: poor
+        feedback: |
+          You can come back to meaning later. Right now he may have a serious medical illness.
+      - text: Screen for late-onset psychosis
+        rating: poor
+        feedback: |
+          Late-onset psychosis happens in clear consciousness. His fluctuating alertness and inattention point to delirium.
+    guide_links: ["differentials#delirium"]
+
+  - id: cause
+    title: Looking for the cause
+    body: |
+      He cannot say the months backwards past October. Blood pressure 104/62 (usually 140s), pulse 96. Mucous membranes are dry.
+      Bloods: **sodium 118 mmol/L** (normal 135-145). Glucose, calcium, kidney function and thyroid function otherwise unremarkable.
+    question: What is the most likely explanation?
+    options:
+      - text: Delirium due to hyponatraemia, from very low food and salt intake, high water and tea intake, and a thiazide diuretic
+        rating: best
+        feedback: |
+          Correct. A thiazide plus low solute intake plus large volumes of water is a classic recipe for hyponatraemia in older adults. Religious fasting, pilgrimage and heat can all set it up.
+      - text: Primary psychotic disorder with incidental hyponatraemia
+        rating: poor
+        feedback: |
+          A sodium of 118 with fluctuating attention fully explains the picture. Calling it psychosis risks antipsychotics and missed treatment.
+      - text: Dementia with Lewy bodies
+        rating: acceptable
+        feedback: |
+          Visual hallucinations and fluctuation are features of Lewy body dementia, and an underlying dementia can make delirium more likely. But the acute onset with a clear medical cause makes delirium the diagnosis now. Reassess cognition after recovery.
+    guide_links: ["differentials#delirium", "differentials#organic"]
+
+  - id: manage
+    title: Management
+    body: |
+      His family asks whether he can be treated at home so he can attend the temple's closing ceremony tomorrow.
+    question: What is the right plan?
+    options:
+      - text: Medical admission; stop the thiazide; correct the sodium slowly under medical guidance; manage the delirium with orientation, family presence, glasses and hearing aids, and a normal sleep-wake cycle; use low-dose antipsychotic only if he is severely distressed or unsafe
+        rating: best
+        feedback: |
+          Correct. A sodium of 118 with confusion needs inpatient care. Correcting chronic hyponatraemia too quickly risks osmotic demyelination, so it must be done under medical supervision. Non-drug measures are the foundation of delirium care, and family presence often helps more than medication.
+      - text: Antipsychotic at home and review in a week
+        rating: unsafe
+        feedback: |
+          This leaves a dangerous electrolyte disturbance untreated and treats a symptom instead of the cause.
+      - text: Advise him to drink more water at home
+        rating: unsafe
+        feedback: |
+          More water would lower his sodium further.
+    guide_links: ["differentials#delirium", "red-flags#red-flags"]
+
+  - id: after
+    title: Before the next festival
+    body: |
+      He recovers fully over a week. His memory testing after recovery is normal. He wants to fast again next year: *"It is my duty. I have done it for forty years."*
+    question: What do you advise?
+    options:
+      - text: Respect the commitment and plan it together with his physician - review his blood pressure medication beforehand, avoid drinking very large volumes of plain water, include some salt and food, agree warning signs (confusion, drowsiness, unsteadiness) for the family, and check his sodium during a long fast
+        rating: best
+        feedback: |
+          Correct. Many religious traditions allow modified fasting for older or unwell people. Discussing this respectfully, perhaps with a priest or elder he trusts, works far better than forbidding it.
+      - text: Tell him he must never fast again
+        rating: poor
+        feedback: |
+          He is unlikely to follow this, and you will lose the chance to make his next fast safe.
+      - text: No special precautions are needed now that he has recovered
+        rating: poor
+        feedback: |
+          The same combination of medication, low intake and high water intake will produce the same result.
+    guide_links: ["red-flags#return"]
+    end: true
+
+teaching_points:
+  - In older adults, **night-time visions with fluctuating alertness are delirium** until proven otherwise, whatever the religious content.
+  - "**Inattention** is the core feature of delirium. Test it."
+  - Fasting, pilgrimage, heat, thiazides and high water intake combine to cause **hyponatraemia**.
+  - Delirium is a medical emergency. Treat the cause, use non-drug measures first, and correct sodium slowly under medical supervision.
+  - Plan future fasting **with** the patient and family, not against them.
+  - Reassess cognition after recovery; delirium can unmask an underlying dementia.
+
+references: [inouye2014, spasovski2014]

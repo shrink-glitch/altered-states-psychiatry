@@ -1,0 +1,138 @@
+title: The goddess speaks at dusk
+subtitle: A 23-year-old newly married woman has episodes in which a goddess speaks through her. The temple healer has sent her to you.
+tags: [Possession states, Dissociation]
+status: draft
+minutes: 15
+authors: [Dr Gokul Raj]
+reviewers: []
+last_reviewed: 2026-11
+learning_objectives:
+  - Apply the ICD-11 requirements for possession trance disorder, especially the cultural-sanction criterion
+  - Separate possession trance from psychosis, epilepsy and voluntary ritual performance
+  - Assess for psychosocial stressors, including domestic violence, safely and in private
+  - Work alongside traditional healers without endorsing harmful practices
+
+vignette: |
+  **Lakshmi**, 23, married eight months ago and moved from her parents' town to her husband's joint family in a village 60 km away. For the past **3 months** she has had episodes, usually around dusk and almost always at home, in which her body stiffens, her voice changes, and she speaks as **the goddess**. In this state "the goddess" has scolded her mother-in-law and demanded that Lakshmi be allowed to visit her parents.
+
+  Each episode lasts 20 to 40 minutes. Afterwards she is tired and says she remembers nothing. The family took her to a temple healer three times; the rituals helped for a week or two each time. The healer has now told them, *"This is beyond me. Take her to the hospital doctor."*
+
+  She comes with her husband and mother-in-law. She is quiet, polite and looks at the floor.
+
+stages:
+  - id: first-steps
+    title: First contact
+    body: |
+      The mother-in-law tells you the problem started "because her family did some black magic". The husband says he just wants her to be normal again. Lakshmi says very little in front of them.
+    question: What is the most important first step?
+    options:
+      - text: Interview Lakshmi alone, as well as with the family, and take a full history including her own account of the episodes and her life since the marriage
+        rating: best
+        feedback: |
+          Correct. Possession states in young married women in India are strongly associated with family conflict, loss of support and sometimes violence. She is unlikely to tell you any of this in front of her in-laws. Seeing her alone is standard practice, not a special measure.
+      - text: Explain to the family that possession is not real and that this is a psychiatric illness
+        rating: poor
+        feedback: |
+          This alienates the family, contradicts the healer who referred her in good faith, and gives you nothing clinically. The meaning of the experience is not what you need to settle.
+      - text: Start a low-dose antipsychotic, since she is hearing and speaking with a goddess
+        rating: unsafe
+        feedback: |
+          Nothing so far suggests psychosis. Speaking *as* another identity during a discrete altered state is not the same as hallucinations or delusions in clear consciousness. Antipsychotics carry real harms and would treat the wrong problem.
+    guide_links: ["clinical-stance#history", "frameworks#icd11"]
+
+  - id: alone
+    title: Lakshmi, seen alone
+    body: |
+      With the door closed, Lakshmi cries. She says she misses her mother, is not allowed to phone her family often, and does most of the housework for nine people. Her mother-in-law criticises her constantly. She says her husband is "not bad" but does not take her side. She denies being hit, but says her mother-in-law once pushed her.
+
+      She says she does not choose when the goddess comes and is frightened by it. Between episodes she has no unusual experiences: no voices, no strange beliefs, no confusion. Her mood is low most days; she sleeps poorly and has lost some weight. She has no thoughts of ending her life.
+
+      Neurological history: no childhood seizures, no injuries, no tongue biting, incontinence or injury during episodes.
+    question: Which diagnosis best fits?
+    options:
+      - text: Possession trance disorder (ICD-11 6B63), with depressive symptoms, in the context of marked family stress
+        rating: best
+        feedback: |
+          Correct. The episodes are involuntary, the usual identity is replaced by an external "possessing" identity, they are distressing and repeated, and they occur at home outside any shared ritual setting - so they are not accepted as part of a collective cultural or religious practice. Her depressive symptoms need assessment in their own right.
+      - text: Schizophrenia
+        rating: poor
+        feedback: |
+          There are no psychotic symptoms between episodes, no thought disorder, no negative symptoms, and no decline. The altered states are discrete and time-limited.
+      - text: No disorder - possession by a deity is a normal religious experience in her culture
+        rating: poor
+        feedback: |
+          Possession can be normal - when it is voluntary, sanctioned and expected, as in ritual settings. Here it is involuntary, frightening to her, repeated at home, and causing distress. The cultural meaning is real; so is the disorder.
+      - text: Focal epilepsy
+        rating: acceptable
+        feedback: |
+          Worth keeping in mind for any episodic altered state. But the episodes are long (20-40 minutes), situational (at home, at dusk, around conflict), with complex speech and no stereotyped motor features. An EEG is reasonable if anything is atypical, but it is not the leading diagnosis.
+    guide_links: ["frameworks#icd11", "differentials#table"]
+    pearl: |
+      Notice what "the goddess" asks for: a visit home and a rebuke for the mother-in-law. Possession often gives voice to needs that cannot be said directly. Treat what the goddess says as clinical information.
+
+  - id: safety
+    title: Safety and the family
+    body: |
+      You are concerned about her mood, her isolation and the push from her mother-in-law.
+    question: What do you do about the possible abuse?
+    options:
+      - text: Ask about it directly and privately, assess her immediate safety, tell her about support available (including one-stop centres and the women's helpline, 181), and document carefully - without confronting the family on her behalf unless she agrees
+        rating: best
+        feedback: |
+          Correct. She is an adult and decides what happens next, but she needs to know her options and that you will listen. Confronting the family without her agreement can increase her risk at home.
+      - text: Tell the husband and mother-in-law what she said, so they can change
+        rating: unsafe
+        feedback: |
+          This breaches her confidence and may put her at greater risk when she returns home.
+      - text: Leave it - she has said she was not hit, and family matters are outside your role
+        rating: poor
+        feedback: |
+          Being pushed, isolation and control are part of the picture and directly relevant to her symptoms. Asking safely is part of a psychiatric assessment.
+    guide_links: ["red-flags#red-flags"]
+
+  - id: management
+    title: Management
+    body: |
+      Lakshmi wants to stay in the marriage but wants things to change. The family wants the episodes to stop. The healer has offered to keep seeing her.
+    question: What is the best plan?
+    options:
+      - text: Psychological treatment focused on her stressors and coping, family sessions (with her consent) on workload and contact with her parents, treatment of depression if it persists, and accepting the healer's continued involvement as long as no harmful practices are used
+        rating: best
+        feedback: |
+          Correct. Dissociative disorders respond to addressing the stressors that drive them. Family work that allows regular contact with her parents is often the most powerful single change. Healer involvement can support engagement - but ask specifically about beating, starvation, chaining or other harmful rituals.
+      - text: Antipsychotic to stop the episodes
+        rating: poor
+        feedback: |
+          There is no evidence that antipsychotics treat dissociative episodes, and they add side effects. Antidepressants may be considered for clear depression, but medication is not the core treatment here.
+      - text: Advise the family to stop all contact with the healer
+        rating: poor
+        feedback: |
+          The healer referred her appropriately and the family trusts them. Forcing a choice usually means the family chooses the healer and stops coming to you.
+    guide_links: ["red-flags#principles", "clinical-stance#language"]
+
+  - id: counterfactual
+    title: A different possession
+    body: |
+      A month later you are asked about a different person: a 40-year-old man in north Kerala who performs **Theyyam**. During the annual ritual performance he is believed by the whole community to become the deity, speaks and blesses as the deity for several hours, and returns to himself afterwards. He functions well, has no distress, and has done this for 20 years.
+    question: How would you classify this?
+    options:
+      - text: Possession trance disorder
+        rating: poor
+        feedback: |
+          The ICD-11 diagnosis requires that the state is not accepted as part of a collective cultural or religious practice. This is the opposite: a voluntary, expected, valued ritual role.
+      - text: No mental disorder - a culturally sanctioned, voluntary ritual trance
+        rating: best
+        feedback: |
+          Correct. Same phenomenon, different context. The context - voluntary or not, sanctioned or not, distressing or not - decides whether it is a disorder.
+    guide_links: ["frameworks#icd11"]
+    end: true
+
+teaching_points:
+  - ICD-11 possession trance disorder needs an **involuntary**, distressing or impairing state that is **not accepted as part of a collective cultural or religious practice**. Context decides.
+  - Possession presentations in India are most common among **young married women**, and are linked to family stress, loss of support and sometimes abuse.
+  - "**Always see the patient alone.** What she cannot say in front of the family may be the key to the case."
+  - The content of the possession often voices needs that cannot be said directly. Listen to it.
+  - Treatment is psychological and family-focused. Antipsychotics are not indicated for the dissociative episodes.
+  - Healers can be allies. Ask specifically about harmful practices.
+
+references: [icd11, bhavsar2016, ram2025, alexander1997]

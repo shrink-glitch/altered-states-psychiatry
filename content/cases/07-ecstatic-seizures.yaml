@@ -1,0 +1,91 @@
+title: One minute of heaven
+subtitle: A 29-year-old describes brief moments of overwhelming bliss and the presence of God. He has been referred for "religious delusions".
+tags: [Epilepsy, Ecstatic aura]
+status: draft
+minutes: 12
+authors: [Dr Gokul Raj]
+reviewers: []
+last_reviewed: 2026-11
+learning_objectives:
+  - Recognise brief, stereotyped episodes of religious or ecstatic experience as possible focal seizures
+  - Ask the history questions that separate seizures from psychiatric presentations
+  - Arrange appropriate investigations and joint care with neurology
+  - Address the patient's attachment to the experience and practical safety, including driving
+
+vignette: |
+  **Thomas**, 29, is an accountant from Kottayam and an active member of his church. A GP has referred him with *"religious preoccupation - ? delusions"*.
+
+  For about a year he has had episodes in which he is suddenly filled with **overwhelming joy and certainty that God is present**. Everything feels perfectly clear and meaningful. He describes it as "one minute of heaven". Some members of his prayer group see this as a gift. His wife is worried because during some episodes he does not answer her, smacks his lips, and afterwards seems confused for a few minutes.
+
+stages:
+  - id: history
+    title: Characterising the episodes
+    body: |
+      Thomas is articulate and has no unusual beliefs outside the episodes. He does not think God is sending him a special mission; he simply describes the experience.
+    question: Which questions matter most?
+    options:
+      - text: How long each episode lasts, how often, whether they are stereotyped, what happens just before (warning sensations), what others observe, and how he is afterwards - plus history of febrile seizures, head injury or family epilepsy
+        rating: best
+        feedback: |
+          Correct. Brief, stereotyped episodes with a warning, impaired awareness, automatisms such as lip-smacking, and post-episode confusion are the signature of focal seizures. The religious content is the least specific part of the history.
+      - text: Explore the content of his religious beliefs in detail to test for delusions
+        rating: poor
+        feedback: |
+          He has no delusions between episodes. The form of the episodes - brief, stereotyped, with automatisms - is far more informative than the content.
+      - text: Screen for mania
+        rating: acceptable
+        feedback: |
+          A reasonable screen in anyone with euphoric experiences, but an episode lasting about a minute with lip-smacking and confusion afterwards is not mania.
+    guide_links: ["differentials#epilepsy"]
+
+  - id: findings
+    title: The details
+    body: |
+      Each episode lasts 30 to 90 seconds. It begins with a **rising feeling in the stomach** and a strong sense of déjà vu, then the bliss. About a third of the time his wife sees lip-smacking and fumbling with his hands, and he does not respond. Afterwards he is confused for 2 to 3 minutes and does not remember that part. Episodes happen 2 to 4 times a month, including once while driving.
+
+      He had **febrile seizures** at age 2.
+    question: What is the most likely diagnosis?
+    options:
+      - text: Focal epilepsy with ecstatic auras, progressing at times to focal impaired-awareness seizures
+        rating: best
+        feedback: |
+          Correct. The epigastric rising sensation, déjà vu, automatisms, impaired awareness, post-ictal confusion and a history of febrile seizures all point to focal epilepsy, often temporal or insular. Picard and Craig (2009) described ecstatic seizures with heightened self-awareness and linked them to the anterior insula.
+      - text: Religious delusions
+        rating: unsafe
+        feedback: |
+          There are no fixed false beliefs. Missing epilepsy here leaves a man with impaired-awareness seizures driving a car.
+      - text: Panic attacks
+        rating: poor
+        feedback: |
+          Panic is fearful, not blissful, and does not cause automatisms or impaired awareness.
+    guide_links: ["differentials#epilepsy", "differentials#organic"]
+
+  - id: plan
+    title: Next steps
+    body: |
+      Thomas is reluctant: *"If you treat this, will I lose the experience? It is the closest I have been to God."*
+    question: What is the best plan?
+    options:
+      - text: Refer to neurology for EEG (including a sleep-deprived recording if the first is normal) and epilepsy-protocol MRI; advise him not to drive until reviewed, in line with legal requirements; and talk openly about his fear of losing the experience
+        rating: best
+        feedback: |
+          Correct. Safety comes first: impaired-awareness seizures make driving dangerous, and Indian law treats epilepsy as relevant to fitness to drive. His attachment to the experience is real and may affect whether he takes treatment, so discuss it rather than dismiss it. Faith does not depend on the seizures, and his church community may help him see this.
+      - text: Prescribe an antipsychotic for hyperreligiosity
+        rating: unsafe
+        feedback: |
+          Wrong diagnosis, wrong drug. Some antipsychotics also lower the seizure threshold.
+      - text: Respect his wish and take no further action, since the episodes are pleasant
+        rating: unsafe
+        feedback: |
+          He has had a seizure while driving. Untreated focal seizures can also progress to bilateral tonic-clonic seizures.
+    guide_links: ["differentials#epilepsy", "clinical-stance#language"]
+    end: true
+
+teaching_points:
+  - "**Brief, stereotyped episodes** of ecstatic or religious experience, especially with a warning, automatisms and post-episode confusion, are focal seizures until proven otherwise."
+  - The **form** of the episode (duration, stereotypy, awareness, aftermath) matters more than its religious content.
+  - Ecstatic auras are rare; recent work links them to the **anterior insula** as well as the temporal lobe.
+  - Ask about **driving**, and arrange EEG and MRI with neurology.
+  - Patients may value the experience. Discuss this openly, since it affects treatment adherence.
+
+references: [picard2009]

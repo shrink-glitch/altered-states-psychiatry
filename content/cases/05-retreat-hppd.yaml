@@ -1,0 +1,109 @@
+title: The world still shimmers
+subtitle: Six weeks after an ayahuasca retreat in Peru, a 32-year-old is frightened that his vision has not returned to normal.
+tags: [Psychedelics, HPPD]
+status: draft
+minutes: 15
+authors: [Dr Gokul Raj]
+reviewers: []
+last_reviewed: 2026-11
+learning_objectives:
+  - Take a non-judgemental substance history after psychedelic use abroad
+  - Recognise hallucinogen persisting perception disorder (HPPD) and distinguish it from psychosis and other causes of visual disturbance
+  - Manage HPPD with reassurance, anxiety treatment and avoidance of triggers
+  - Answer questions about psychedelic-assisted therapy honestly
+
+vignette: |
+  **Vikram**, 32, works in IT in Pune. For several years he has had mild depression and anxiety, treated by his GP with **sertraline**. Two months ago he stopped sertraline on his own, and a few weeks later attended a week-long **ayahuasca retreat in Peru**, taking part in four ceremonies.
+
+  He found the experience profound. But since returning six weeks ago he sees **trails behind moving objects, halos around lights and a fine "static" over everything**, worse in the dark and when he is anxious. At times the world feels unreal, "like a film set". He is terrified he has "broken his brain" and has stopped going to work.
+
+stages:
+  - id: history
+    title: Taking the history
+    body: |
+      Vikram is anxious and apologetic. *"I know it was stupid. Are you going to report me?"*
+    question: How do you approach the substance history?
+    options:
+      - text: Reassure him the consultation is confidential and that your aim is to help, then ask specifically what he took, how many times, with what else, and how his medication was handled
+        rating: best
+        feedback: |
+          Correct. A non-judgemental history gets you accurate information. His fear of judgement is the main barrier. The medication question matters: ayahuasca contains MAO-inhibiting alkaloids, and combining it with serotonergic antidepressants risks serotonin toxicity - one reason retreats ask people to stop them, often without medical supervision.
+      - text: Point out that ayahuasca's active ingredient (DMT) is illegal in India, so he should not have taken it
+        rating: poor
+        feedback: |
+          He took it abroad and is asking for help. A lecture about legality will stop him being open with you.
+      - text: Move straight to an antipsychotic, since he is seeing things
+        rating: unsafe
+        feedback: |
+          He knows the visual changes are not real. Insight is preserved - this is not psychosis.
+    guide_links: ["clinical-stance#history", "differentials#hallucinogens"]
+
+  - id: differential
+    title: What is happening?
+    body: |
+      Mental state: anxious, low in mood, no delusions, no hallucinations in other senses. He describes the visual changes accurately and knows they are perceptual, not real. Neurological examination is normal. Visual acuity is normal. No headache.
+    question: What is the most likely diagnosis?
+    options:
+      - text: Hallucinogen persisting perception disorder (HPPD), with prominent derealisation and anxiety
+        rating: best
+        feedback: |
+          Correct. HPPD is the re-experiencing of perceptual changes first experienced during hallucinogen use - trails, halos, visual snow, intensified colours - with preserved insight, causing distress. Halpern and colleagues (2018) note that dissociative symptoms such as derealisation are consistently associated with it, and that anxiety makes it worse.
+      - text: Substance-induced psychotic disorder
+        rating: poor
+        feedback: |
+          There are no delusions and he has full insight into the perceptual changes. That rules out psychosis.
+      - text: Visual snow syndrome or a migraine variant, unrelated to the retreat
+        rating: acceptable
+        feedback: |
+          A reasonable differential, and the symptoms overlap. Some people with HPPD-like symptoms had perceptual complaints before any drug use. Ask about earlier symptoms and migraine, and refer to ophthalmology or neurology if anything is atypical. But the clear onset after hallucinogen use makes HPPD the working diagnosis.
+    guide_links: ["differentials#hallucinogens", "differentials#table"]
+
+  - id: management
+    title: Management
+    body: |
+      Vikram asks whether it is permanent and what will fix it.
+    question: What is the best plan?
+    options:
+      - text: Explain the diagnosis and that symptoms often lessen over time, especially as anxiety settles; treat the anxiety and low mood (restarting his antidepressant is reasonable); advise avoiding cannabis and further hallucinogens, which can worsen symptoms; and review regularly
+        rating: best
+        feedback: |
+          Correct. Naming the problem and reducing fear is a large part of treatment. Cannabis is a common trigger for worsening. The evidence for specific medication is limited to case reports and small series, so specialist advice is worth seeking if symptoms persist.
+      - text: Start an antipsychotic to suppress the visual symptoms
+        rating: poor
+        feedback: |
+          He is not psychotic, and antipsychotics are not a proven treatment for HPPD. Some case reports describe worsening.
+      - text: Reassure him it will definitely go away within a month
+        rating: poor
+        feedback: |
+          Many cases improve, but some persist for months or longer. False certainty undermines trust when symptoms continue.
+    guide_links: ["differentials#hallucinogens", "red-flags#principles"]
+
+  - id: future
+    title: The trial question
+    body: |
+      At follow-up, three months later, the visual symptoms have faded to an occasional halo around streetlights. His mood is better on sertraline. He asks: *"I've read about psilocybin trials for depression. Could I join one? The retreat did help me in some ways."*
+    question: What is the most honest answer?
+    options:
+      - text: Psilocybin-assisted therapy is still experimental, is not available as a treatment in India, and is offered abroad only in trials or specific regulated programmes; a history of persisting perceptual symptoms after a hallucinogen would usually exclude him from trials. You can help him explore the meaning he took from the retreat in therapy instead
+        rating: best
+        feedback: |
+          Correct. Honest, accurate and still respectful of what the retreat meant to him. Integrating the experience psychologically does not require taking another psychedelic.
+      - text: Yes - you will refer him to a trial
+        rating: unsafe
+        feedback: |
+          No such trial is available to him in India, and his HPPD history is a significant risk factor and a likely exclusion.
+      - text: Tell him psychedelics have no therapeutic value
+        rating: poor
+        feedback: |
+          This is not accurate. Psychedelic-assisted therapies are under active research. Dismissing the whole field also dismisses his experience.
+    guide_links: ["clinical-stance#language"]
+    end: true
+
+teaching_points:
+  - Take substance histories **non-judgementally**. Fear of judgement is the main barrier to accurate information.
+  - Ask how medication was handled before a retreat. **Ayahuasca with serotonergic antidepressants** risks serotonin toxicity.
+  - "**HPPD**: perceptual changes after hallucinogen use (trails, halos, visual snow) with **preserved insight**. It is not psychosis."
+  - Derealisation and anxiety travel with HPPD. Treating anxiety and avoiding cannabis and further hallucinogens are the core of management.
+  - Answer questions about psychedelic therapy **honestly**: experimental, not available in India outside research, and HPPD is usually an exclusion.
+
+references: [halpern2018]

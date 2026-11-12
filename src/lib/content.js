@@ -89,6 +89,22 @@ export function guideSummary(ref) {
 }
 
 /* ---------- cases ---------- */
+// Deterministic shuffle so the best answer is not always in the same position.
+// Seeded by case + stage id, so the order is stable between builds and the
+// server-rendered and browser views match. Set `shuffle: false` on a stage to
+// keep the authored order.
+function seededShuffle(arr, seedText) {
+  let h = 2166136261;
+  for (const ch of seedText) h = Math.imul(h ^ ch.charCodeAt(0), 16777619) >>> 0;
+  const rand = () => ((h = Math.imul(h ^ (h >>> 15), 2246822507) >>> 0), (h ^= h >>> 13), (h >>> 0) / 4294967296);
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(rand() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
 const caseFiles = import.meta.glob('../../content/cases/*.yaml', { eager: true, query: '?raw', import: 'default' });
 
 function prepareCase(raw, file) {
@@ -103,7 +119,7 @@ function prepareCase(raw, file) {
       ...s,
       bodyHtml: md(s.body || ''),
       questionHtml: mdInline(s.question || ''),
-      options: (s.options || []).map((o) => ({
+      options: (s.shuffle === false ? s.options || [] : seededShuffle(s.options || [], `${slug}:${s.id}`)).map((o) => ({
         ...o,
         textHtml: mdInline(o.text),
         feedbackHtml: md(o.feedback || ''),

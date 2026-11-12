@@ -1,0 +1,113 @@
+title: After the colours
+subtitle: A 19-year-old student is still terrified and suspicious two days after drinking bhang at Holi.
+tags: [Cannabis and bhang, Substance-induced psychosis]
+status: draft
+minutes: 12
+authors: [Dr Gokul Raj]
+reviewers: []
+last_reviewed: 2026-11
+learning_objectives:
+  - Recognise that edible cannabis (bhang) has a delayed onset and a long duration
+  - Distinguish cannabis intoxication, substance-induced psychotic disorder and primary psychosis
+  - Know the high rate of later conversion to schizophrenia or bipolar disorder after cannabis-induced psychosis
+  - Plan follow-up and a non-judgemental conversation about further use
+
+vignette: |
+  **Rohan**, 19, is a first-year engineering student. At a Holi party two days ago he drank two glasses of **bhang thandai**. Nothing happened for over an hour, so he had a third.
+
+  That evening he became frightened, said his friends were filming him to put online, and hid in the bathroom. He has slept little since. Today he believes his hostel room is bugged and that people on the street are talking about him. His parents have driven him to the emergency department.
+
+  He is restless and suspicious but answers questions. He has smoked cannabis "a few times" with friends over the past year. Six months ago, after smoking at a party, he had a night of panic and paranoia that settled by morning.
+
+stages:
+  - id: acute
+    title: In the emergency department
+    body: |
+      Rohan is pacing and asks you repeatedly whether the police have been called. Vital signs: pulse 112, blood pressure 138/86, temperature normal. Pupils normal size, reactive. No focal neurological signs.
+    question: What is your immediate approach?
+    options:
+      - text: A calm, low-stimulus space; reassure him and his parents; check for other substances and medical causes; offer an oral benzodiazepine if distress or agitation does not settle
+        rating: best
+        feedback: |
+          Correct. Most acute cannabis-related distress settles with time and reassurance. A benzodiazepine is first line for agitation. Check what else was taken - bhang preparations and party drinks can contain alcohol or other substances.
+      - text: Rapid tranquillisation with intramuscular haloperidol
+        rating: poor
+        feedback: |
+          He is distressed but cooperative. Intramuscular medication should be reserved for severe agitation that does not respond to calmer measures. Restraint and injections also frighten a paranoid young man further.
+      - text: Discharge with advice to sleep it off - it is just bhang
+        rating: unsafe
+        feedback: |
+          He is still psychotic two days later, with poor sleep. That is beyond ordinary intoxication and needs assessment and follow-up.
+    guide_links: ["differentials#cannabis"]
+    pearl: |
+      **Edibles are different.** Bhang taken by mouth starts working after 30 minutes to 2 hours and lasts many hours. "Nothing happened, so I had more" is the classic story behind a bad reaction.
+
+  - id: diagnosis
+    title: What is this?
+    body: |
+      Urine drug screen is positive for cannabinoids only. Bloods are normal. By the next morning he has slept with a benzodiazepine but is still convinced his room is bugged.
+    question: What is the best working diagnosis?
+    options:
+      - text: Cannabis intoxication
+        rating: poor
+        feedback: |
+          Intoxication from bhang can last many hours, but persistent paranoid delusions for three days go beyond it.
+      - text: Cannabis-induced psychotic disorder - keeping primary psychosis under review
+        rating: best
+        feedback: |
+          Correct. Psychotic symptoms started during cannabis use and have persisted beyond intoxication. If symptoms continue for more than about a month after stopping, a primary psychotic disorder becomes more likely and the diagnosis should be revisited.
+      - text: Schizophrenia
+        rating: poor
+        feedback: |
+          Far too early. He has had three days of symptoms with a clear precipitant. But the previous paranoid episode six months ago is a warning sign worth noting.
+    guide_links: ["differentials#cannabis", "differentials#table"]
+
+  - id: risk
+    title: Talking to the family
+    body: |
+      His symptoms resolve over 10 days with sleep support and a short course of low-dose antipsychotic. His parents ask, *"So it was just the bhang? He'll be fine now?"*
+    question: What do you tell them?
+    options:
+      - text: Yes - once it has worn off there is no further risk
+        rating: poor
+        feedback: |
+          This is false reassurance. A large Danish registry study found that almost half of people with cannabis-induced psychosis were later diagnosed with schizophrenia or bipolar disorder.
+      - text: He has recovered well, but cannabis-induced psychosis carries a substantial risk of later schizophrenia or bipolar disorder, especially in young people; stopping cannabis lowers his risk, and he needs follow-up for at least a few years
+        rating: best
+        feedback: |
+          Correct. In the Danish registry study by Starzer and colleagues (2018), 47% of people with cannabis-induced psychosis later converted to schizophrenia or bipolar disorder, and young age increased the risk. Half the conversions to schizophrenia happened within about three years.
+      - text: He definitely has schizophrenia now and needs lifelong medication
+        rating: poor
+        feedback: |
+          Overstating the risk is also harmful. Many people do not convert. Honest uncertainty and follow-up are the right approach.
+    guide_links: ["differentials#cannabis"]
+
+  - id: future-use
+    title: Holi next year
+    body: |
+      Alone with you, Rohan says: *"Everyone has bhang at Holi. It's part of the festival. It's not even illegal."*
+    question: How do you respond?
+    options:
+      - text: Agree that bhang has a long cultural place and is regulated differently from ganja, then explain that his own brain has now reacted twice, so for him the risk is real; discuss avoiding all cannabis, how to decline at festivals, and what early warning signs to watch for
+        rating: best
+        feedback: |
+          Correct. Bhang (made from cannabis leaves) is excluded from the NDPS Act's definition of cannabis and is regulated by individual states, so his point is partly right. Arguing about legality wastes the conversation. Make it personal and practical.
+      - text: Tell him cannabis is illegal and he could be arrested
+        rating: poor
+        feedback: |
+          Partly inaccurate for bhang, and fear-based messages rarely work in young people. He will stop listening.
+      - text: Say a little at festivals is fine as long as he avoids smoking it
+        rating: unsafe
+        feedback: |
+          He has had two psychotic reactions to cannabis. There is no safe amount for him, and edible forms are harder to control, not easier.
+    guide_links: ["clinical-stance#language"]
+    end: true
+
+teaching_points:
+  - Bhang and other edible cannabis have a **delayed onset and long duration**, which leads people to take more.
+  - Psychosis that **persists beyond intoxication** is substance-induced psychotic disorder; if it lasts beyond about a month after stopping, reconsider a primary psychotic disorder.
+  - Cannabis-induced psychosis has a **high rate of later conversion** to schizophrenia or bipolar disorder (47% in a large Danish registry study). Follow up for years, not weeks.
+  - Higher levels of cannabis use carry higher psychosis risk - a dose-response relationship.
+  - Talk about future use in personal, practical terms, not in terms of legality or fear.
+
+references: [starzer2018, marconi2016]

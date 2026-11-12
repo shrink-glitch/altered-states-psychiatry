@@ -50,9 +50,13 @@ teaching_points:
 references: [bibkey1, bibkey2]
 ```
 
+**YAML gotcha.** A list item that starts with bold text (`- **Like this**`) must be wrapped in quotes (`- "**Like this** ..."`), or the file will not parse. `npm run validate` will catch it.
+
 **Ratings and scoring.** `best` scores 2, `acceptable` 1, `poor` and `unsafe` 0. Each stage should have exactly one `best` option. Use `unsafe` only when the option could cause real harm.
 
 **Linking to the guide.** In any Markdown text, write `[link text](guide:frameworks#lukoff)`. In `guide_links`, use `"frameworks#lukoff"`. The page slug is the guide file name without its number prefix.
+
+**Option order.** Options are shuffled into a fixed, random-looking order on the site so the best answer is not always in the same place. Write them in any order. Add `shuffle: false` to a stage to keep your order.
 
 **Branching.** Stages run in file order by default. To branch, add `next:` to an option. A stage can also have its own `next:` to skip ahead.
 

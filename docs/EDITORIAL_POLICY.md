@@ -11,4 +11,4 @@ To help trainees assess religious, spiritual and psychedelic-related presentatio
 
 ### About the author
 Gokul Raj, MD , Practicing consultant Psychiatrist from India with training in Integrative Psychiatry and Psychedelic assisted psychotherapy
-[Linkedin][https://www.linkedin.com/in/gokulraj-md/]
+[Linkedin](https://www.linkedin.com/in/gokulraj-md/)

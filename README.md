@@ -1,6 +1,6 @@
 # Altered States in Psychiatric Practice
 
-An open, peer-reviewed case library for psychiatry trainees on presentations involving **religious, spiritual and psychedelic experiences** - and the question of when they are illness.
+An open, case library for psychiatry trainees on presentations involving **religious, spiritual and psychedelic experiences** - and the question of when they are illness.
 
 - **Cases** - interactive, branching cases with feedback on every option
 - **Differential guide** - the reference layer behind the cases: clinical stance, diagnostic frameworks (DSM-5-TR Z65.8, ICD-11 trance disorders, Lukoff's criteria), differentials and red flags

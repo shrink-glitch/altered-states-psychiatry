@@ -10,7 +10,7 @@ const cases = getCases();
     {cases.map((c) => (
       <li class="card">
         <a href={url(`cases/${c.slug}/`)}>
-          <span class="tags">{c.tags?.join(' · ')} {c.status === 'draft' && <span class="badge">Draft - not yet peer reviewed</span>}</span>
+          <span class="tags">{c.tags?.join(' · ')}</span>
           <strong>{c.title}</strong>
           <span class="muted">{c.subtitle}</span>
           <span class="meta">{c.stages.length} steps · about {c.minutes} min</span>

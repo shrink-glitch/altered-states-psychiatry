@@ -13,9 +13,6 @@ const { c } = Astro.props;
     <p class="eyebrow">{c.tags?.join(' · ')}</p>
     <h1>{c.title}</h1>
     <p class="lede">{c.subtitle}</p>
-    {c.status === 'draft' && (
-      <p class="notice">Draft case - not yet peer reviewed. Content may change.</p>
-    )}
     <div class="case-meta">
       <div>
         <h2 class="h-small">Learning objectives</h2>

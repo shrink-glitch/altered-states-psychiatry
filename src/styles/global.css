@@ -147,3 +147,12 @@ h3 { font-size: 1.2rem; }
 code { background: var(--paper-2); padding: 2px 6px; border-radius: 4px; font-size: 0.88em; word-break: break-all; }
 
 .wrong-note { background: var(--unsafe-bg); color: var(--unsafe); border-radius: 8px; padding: 8px 12px; font-size: 0.93rem; margin: 0 0 10px; }
+
+/* Quiz: make the selected option obvious before submitting */
+.quiz .option.chosen > button { border-color: var(--accent); border-width: 2px; background: #e3efed; box-shadow: 0 0 0 2px rgba(30, 86, 82, 0.15); }
+.quiz .option.chosen .opt-letter { background: var(--accent); color: #fff; }
+.quiz .option.chosen > button::after { content: '✓ Selected'; margin-left: auto; font-size: 0.8rem; font-weight: 600; color: var(--accent); white-space: nowrap; align-self: center; }
+.quiz .option.r-best.chosen > button::after { content: '✓ Your answer - correct'; color: var(--best); }
+.quiz .option.r-unsafe.chosen > button::after { content: '✗ Your answer'; color: var(--unsafe); }
+.quiz .option.r-best.chosen > button, .quiz .option.r-best > button { background: var(--best-bg); border-color: var(--best); }
+.quiz .option.r-unsafe.chosen > button { background: var(--unsafe-bg); border-color: var(--unsafe); }

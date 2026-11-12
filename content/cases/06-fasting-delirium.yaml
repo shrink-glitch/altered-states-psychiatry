@@ -27,13 +27,13 @@ stages:
       - text: "Attention and level of consciousness"
         rating: best
         feedback: |
-          **This option in full:** Attention and level of consciousness - for example, months of the year backwards and a structured delirium screen - alongside vital signs and a medical review.
+          Attention and level of consciousness - for example, months of the year backwards and a structured delirium screen - alongside vital signs and a medical review.
 
           Fluctuating alertness, inattention and night-time visual hallucinations in an older adult are delirium until proven otherwise. Inattention is the core feature, and it can be tested in a minute.
       - text: "The religious meaning of the visions"
         rating: poor
         feedback: |
-          **This option in full:** A detailed exploration of the religious meaning of the visions.
+          A detailed exploration of the religious meaning of the visions.
 
           You can come back to meaning later. Right now he may have a serious medical illness.
       - text: "Screen for late-onset psychosis"
@@ -52,13 +52,13 @@ stages:
       - text: "Hyponatraemic delirium"
         rating: best
         feedback: |
-          **This option in full:** Delirium due to hyponatraemia, from very low food and salt intake, high water and tea intake, and a thiazide diuretic.
+          Delirium due to hyponatraemia, from very low food and salt intake, high water and tea intake, and a thiazide diuretic.
 
           A thiazide plus low solute intake plus large volumes of water is a classic recipe for hyponatraemia in older adults. Religious fasting, pilgrimage and heat can all set it up.
       - text: "Primary psychosis; incidental low sodium"
         rating: poor
         feedback: |
-          **This option in full:** Primary psychotic disorder with incidental hyponatraemia.
+          Primary psychotic disorder with incidental hyponatraemia.
 
           A sodium of 118 with fluctuating attention fully explains the picture. Calling it psychosis risks antipsychotics and missed treatment.
       - text: "Dementia with Lewy bodies"
@@ -76,7 +76,7 @@ stages:
       - text: "Admit, stop thiazide, correct sodium slowly"
         rating: best
         feedback: |
-          **This option in full:** Medical admission; stop the thiazide; correct the sodium slowly under medical guidance; manage the delirium with orientation, family presence, glasses and hearing aids, and a normal sleep-wake cycle; use low-dose antipsychotic only if he is severely distressed or unsafe.
+          Medical admission; stop the thiazide; correct the sodium slowly under medical guidance; manage the delirium with orientation, family presence, glasses and hearing aids, and a normal sleep-wake cycle; use low-dose antipsychotic only if he is severely distressed or unsafe.
 
           A sodium of 118 with confusion needs inpatient care. Correcting chronic hyponatraemia too quickly risks osmotic demyelination, so it must be done under medical supervision. Non-drug measures are the foundation of delirium care, and family presence often helps more than medication.
       - text: "Start an antipsychotic at home; review next week"
@@ -98,7 +98,7 @@ stages:
       - text: "Plan a modified fast with his physician"
         rating: best
         feedback: |
-          **This option in full:** Respect the commitment and plan it together with his physician - review his blood pressure medication beforehand, avoid drinking very large volumes of plain water, include some salt and food, agree warning signs (confusion, drowsiness, unsteadiness) for the family, and check his sodium during a long fast.
+          Respect the commitment and plan it together with his physician - review his blood pressure medication beforehand, avoid drinking very large volumes of plain water, include some salt and food, agree warning signs (confusion, drowsiness, unsteadiness) for the family, and check his sodium during a long fast.
 
           Many religious traditions allow modified fasting for older or unwell people. Discussing this respectfully, perhaps with a priest or elder he trusts, works far better than forbidding it.
       - text: "Tell him he must never fast again"
@@ -108,7 +108,7 @@ stages:
       - text: "No precautions needed now he's recovered"
         rating: poor
         feedback: |
-          **This option in full:** No special precautions are needed now that he has recovered.
+          No special precautions are needed now that he has recovered.
 
           The same combination of medication, low intake and high water intake will produce the same result.
     guide_links: ["red-flags#return"]

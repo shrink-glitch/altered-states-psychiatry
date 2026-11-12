@@ -27,19 +27,19 @@ stages:
       - text: "Reassure him, then ask specifics"
         rating: best
         feedback: |
-          **This option in full:** Reassure him the consultation is confidential and that your aim is to help, then ask specifically what he took, how many times, with what else, and how his medication was handled.
+          Reassure him the consultation is confidential and that your aim is to help, then ask specifically what he took, how many times, with what else, and how his medication was handled.
 
           A non-judgemental history gets you accurate information. His fear of judgement is the main barrier. The medication question matters: ayahuasca contains MAO-inhibiting alkaloids, and combining it with serotonergic antidepressants risks serotonin toxicity - one reason retreats ask people to stop them, often without medical supervision.
       - text: "Remind him DMT is illegal in India"
         rating: poor
         feedback: |
-          **This option in full:** Point out that ayahuasca's active ingredient (DMT) is illegal in India, so he should not have taken it.
+          Point out that ayahuasca's active ingredient (DMT) is illegal in India, so he should not have taken it.
 
           He took it abroad and is asking for help. A lecture about legality will stop him being open with you.
       - text: "Start an antipsychotic for the visions"
         rating: unsafe
         feedback: |
-          **This option in full:** Move straight to an antipsychotic, since he is seeing things.
+          Move straight to an antipsychotic, since he is seeing things.
 
           He knows the visual changes are not real. Insight is preserved - this is not psychosis.
     guide_links: ["clinical-stance#history", "differentials#hallucinogens"]
@@ -53,7 +53,7 @@ stages:
       - text: "HPPD with derealisation and anxiety"
         rating: best
         feedback: |
-          **This option in full:** Hallucinogen persisting perception disorder (HPPD), with prominent derealisation and anxiety.
+          Hallucinogen persisting perception disorder (HPPD), with prominent derealisation and anxiety.
 
           HPPD is the re-experiencing of perceptual changes first experienced during hallucinogen use - trails, halos, visual snow, intensified colours - with preserved insight, causing distress. Halpern and colleagues (2018) note that dissociative symptoms such as derealisation are consistently associated with it, and that anxiety makes it worse.
       - text: "Substance-induced psychotic disorder"
@@ -63,7 +63,7 @@ stages:
       - text: "Visual snow or migraine, unrelated"
         rating: acceptable
         feedback: |
-          **This option in full:** Visual snow syndrome or a migraine variant, unrelated to the retreat.
+          Visual snow syndrome or a migraine variant, unrelated to the retreat.
 
           A reasonable differential, and the symptoms overlap. Some people with HPPD-like symptoms had perceptual complaints before any drug use. Ask about earlier symptoms and migraine, and refer to ophthalmology or neurology if anything is atypical. But the clear onset after hallucinogen use makes HPPD the working diagnosis.
     guide_links: ["differentials#hallucinogens", "differentials#table"]
@@ -77,19 +77,19 @@ stages:
       - text: "Explain, treat anxiety, avoid cannabis"
         rating: best
         feedback: |
-          **This option in full:** Explain the diagnosis and that symptoms often lessen over time, especially as anxiety settles; treat the anxiety and low mood (restarting his antidepressant is reasonable); advise avoiding cannabis and further hallucinogens, which can worsen symptoms; and review regularly.
+          Explain the diagnosis and that symptoms often lessen over time, especially as anxiety settles; treat the anxiety and low mood (restarting his antidepressant is reasonable); advise avoiding cannabis and further hallucinogens, which can worsen symptoms; and review regularly.
 
           Naming the problem and reducing fear is a large part of treatment. Cannabis is a common trigger for worsening. The evidence for specific medication is limited to case reports and small series, so specialist advice is worth seeking if symptoms persist.
       - text: "Antipsychotic to suppress the visuals"
         rating: poor
         feedback: |
-          **This option in full:** Start an antipsychotic to suppress the visual symptoms.
+          Start an antipsychotic to suppress the visual symptoms.
 
           He is not psychotic, and antipsychotics are not a proven treatment for HPPD. Some case reports describe worsening.
       - text: "Promise him it will all go within a month"
         rating: poor
         feedback: |
-          **This option in full:** Reassure him it will definitely go away within a month.
+          Reassure him it will definitely go away within a month.
 
           Many cases improve, but some persist for months or longer. False certainty undermines trust when symptoms continue.
     guide_links: ["differentials#hallucinogens", "red-flags#principles"]
@@ -103,7 +103,7 @@ stages:
       - text: "Experimental, and he'd likely be excluded"
         rating: best
         feedback: |
-          **This option in full:** Psilocybin-assisted therapy is still experimental, is not available as a treatment in India, and is offered abroad only in trials or specific regulated programmes; a history of persisting perceptual symptoms after a hallucinogen would usually exclude him from trials. You can help him explore the meaning he took from the retreat in therapy instead.
+          Psilocybin-assisted therapy is still experimental, is not available as a treatment in India, and is offered abroad only in trials or specific regulated programmes; a history of persisting perceptual symptoms after a hallucinogen would usually exclude him from trials. You can help him explore the meaning he took from the retreat in therapy instead.
 
           Honest, accurate and still respectful of what the retreat meant to him. Integrating the experience psychologically does not require taking another psychedelic.
       - text: "Yes - you'll refer him to a psilocybin trial"

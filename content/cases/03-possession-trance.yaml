@@ -29,19 +29,19 @@ stages:
       - text: "Interview Lakshmi alone as well"
         rating: best
         feedback: |
-          **This option in full:** Interview Lakshmi alone, as well as with the family, and take a full history including her own account of the episodes and her life since the marriage.
+          Interview Lakshmi alone, as well as with the family, and take a full history including her own account of the episodes and her life since the marriage.
 
           Possession states in young married women in India are strongly associated with family conflict, loss of support and sometimes violence. She is unlikely to tell you any of this in front of her in-laws. Seeing her alone is standard practice, not a special measure.
       - text: "Tell the family possession isn't real"
         rating: poor
         feedback: |
-          **This option in full:** Explain to the family that possession is not real and that this is a psychiatric illness.
+          Explain to the family that possession is not real and that this is a psychiatric illness.
 
           This alienates the family, contradicts the healer who referred her in good faith, and gives you nothing clinically. The meaning of the experience is not what you need to settle.
       - text: "Start a low-dose antipsychotic now"
         rating: unsafe
         feedback: |
-          **This option in full:** Start a low-dose antipsychotic, since she is hearing and speaking with a goddess.
+          Start a low-dose antipsychotic, since she is hearing and speaking with a goddess.
 
           Nothing so far suggests psychosis. Speaking *as* another identity during a discrete altered state is not the same as hallucinations or delusions in clear consciousness. Antipsychotics carry real harms and would treat the wrong problem.
     guide_links: ["clinical-stance#history", "frameworks#icd11"]
@@ -59,7 +59,7 @@ stages:
       - text: "Possession trance disorder"
         rating: best
         feedback: |
-          **This option in full:** Possession trance disorder (ICD-11 6B63), with depressive symptoms, in the context of marked family stress.
+          Possession trance disorder (ICD-11 6B63), with depressive symptoms, in the context of marked family stress.
 
           The episodes are involuntary, the usual identity is replaced by an external "possessing" identity, they are distressing and repeated, and they occur at home outside any shared ritual setting - so they are not accepted as part of a collective cultural or religious practice. Her depressive symptoms need assessment in their own right.
       - text: "Schizophrenia, first episode"
@@ -69,7 +69,7 @@ stages:
       - text: "No disorder - culturally normal possession"
         rating: poor
         feedback: |
-          **This option in full:** No disorder - possession by a deity is a normal religious experience in her culture.
+          No disorder - possession by a deity is a normal religious experience in her culture.
 
           Possession can be normal - when it is voluntary, sanctioned and expected, as in ritual settings. Here it is involuntary, frightening to her, repeated at home, and causing distress. The cultural meaning is real; so is the disorder.
       - text: "Focal epilepsy with impaired awareness"
@@ -89,19 +89,19 @@ stages:
       - text: "Ask privately and offer support options"
         rating: best
         feedback: |
-          **This option in full:** Ask about it directly and privately, assess her immediate safety, tell her about support available (including one-stop centres and the women's helpline, 181), and document carefully - without confronting the family on her behalf unless she agrees.
+          Ask about it directly and privately, assess her immediate safety, tell her about support available (including one-stop centres and the women's helpline, 181), and document carefully - without confronting the family on her behalf unless she agrees.
 
           She is an adult and decides what happens next, but she needs to know her options and that you will listen. Confronting the family without her agreement can increase her risk at home.
       - text: "Tell her in-laws what she disclosed"
         rating: unsafe
         feedback: |
-          **This option in full:** Tell the husband and mother-in-law what she said, so they can change.
+          Tell the husband and mother-in-law what she said, so they can change.
 
           This breaches her confidence and may put her at greater risk when she returns home.
       - text: "Leave it - family matters aren't your role"
         rating: poor
         feedback: |
-          **This option in full:** Leave it - she has said she was not hit, and family matters are outside your role.
+          Leave it - she has said she was not hit, and family matters are outside your role.
 
           Being pushed, isolation and control are part of the picture and directly relevant to her symptoms. Asking safely is part of a psychiatric assessment.
     guide_links: ["red-flags#red-flags"]
@@ -115,7 +115,7 @@ stages:
       - text: "Stress-focused therapy and family work"
         rating: best
         feedback: |
-          **This option in full:** Psychological treatment focused on her stressors and coping, family sessions (with her consent) on workload and contact with her parents, treatment of depression if it persists, and accepting the healer's continued involvement as long as no harmful practices are used.
+          Psychological treatment focused on her stressors and coping, family sessions (with her consent) on workload and contact with her parents, treatment of depression if it persists, and accepting the healer's continued involvement as long as no harmful practices are used.
 
           Dissociative disorders respond to addressing the stressors that drive them. Family work that allows regular contact with her parents is often the most powerful single change. Healer involvement can support engagement - but ask specifically about beating, starvation, chaining or other harmful rituals.
       - text: "Antipsychotic to stop the episodes"
@@ -141,7 +141,7 @@ stages:
       - text: "No mental disorder"
         rating: best
         feedback: |
-          **This option in full:** No mental disorder - a culturally sanctioned, voluntary ritual trance.
+          No mental disorder - a culturally sanctioned, voluntary ritual trance.
 
           Same phenomenon, different context. The context - voluntary or not, sanctioned or not, distressing or not - decides whether it is a disorder.
     guide_links: ["frameworks#icd11"]

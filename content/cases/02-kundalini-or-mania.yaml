@@ -29,19 +29,19 @@ stages:
       - text: "Accept her account of Kundalini phenomena"
         rating: poor
         feedback: |
-          **This option in full:** Accept her account - she is articulate, insightful and describes classic Kundalini phenomena.
+          Accept her account - she is articulate, insightful and describes classic Kundalini phenomena.
 
           Fluent, articulate and cheerful is exactly how many people in hypomania or mania present. Somatic energy-like sensations are commonly reported by meditators and are not, by themselves, a disorder. But you cannot judge the whole picture from her account alone.
       - text: "See her husband alone; ask about sleep"
         rating: best
         feedback: |
-          **This option in full:** Interview the husband separately for collateral history, and ask Meera specifically about sleep and how she feels when she sleeps less.
+          Interview the husband separately for collateral history, and ask Meera specifically about sleep and how she feels when she sleeps less.
 
           Collateral is essential in any suspected elation - patients rarely report their own manic symptoms. The single most useful question is about **decreased need for sleep without tiredness**.
       - text: "Refer her back to her teacher"
         rating: poor
         feedback: |
-          **This option in full:** Refer her back to her teacher, since this is a recognised stage of practice in her tradition.
+          Refer her back to her teacher, since this is a recognised stage of practice in her tradition.
 
           Her husband brought her because he is worried. Hear his concerns first. The teacher may be a useful ally later, with her consent.
     guide_links: ["clinical-stance#history", "differentials#mania"]
@@ -63,13 +63,13 @@ stages:
       - text: "Spiritual emergency, part of her transformation"
         rating: unsafe
         feedback: |
-          **This option in full:** Spiritual emergency - the sleep and spending changes are part of the transformation she describes.
+          Spiritual emergency - the sleep and spending changes are part of the transformation she describes.
 
           Spiritual emergency is not a diagnosis and has no validated criteria. Decreased need for sleep without fatigue, pressured speech, increased activity and impulsive spending of savings are the core features of mania, whatever their framing.
       - text: "Manic episode with spiritual content"
         rating: best
         feedback: |
-          **This option in full:** Probable manic episode (bipolar I) with spiritual content, with the Kundalini practice possibly acting as a precipitant.
+          Probable manic episode (bipolar I) with spiritual content, with the Kundalini practice possibly acting as a precipitant.
 
           Past postpartum depression, antidepressant exposure, a suggestive family history, and a 2-week episode of decreased need for sleep, pressured speech, increased activity and reckless spending make bipolar disorder the leading diagnosis. The spiritual content shapes the presentation; it does not explain it.
       - text: "Generalised anxiety with somatic symptoms"
@@ -89,13 +89,13 @@ stages:
       - text: "No - these are recognised kriyas"
         rating: poor
         feedback: |
-          **This option in full:** No - they are recognised kriyas in her tradition.
+          No - they are recognised kriyas in her tradition.
 
           They may well be. But involuntary movements with altered experience should prompt you to think about epilepsy - particularly temporal lobe epilepsy, which is classically associated with ecstatic or religious auras.
       - text: "Neurological exam; EEG if atypical"
         rating: best
         feedback: |
-          **This option in full:** Take a focused history, examine neurologically, and arrange an EEG if anything in the history or examination is atypical.
+          Take a focused history, examine neurologically, and arrange an EEG if anything in the history or examination is atypical.
 
           Preserved awareness, talking through the movements and a clear link to practice are reassuring. But the threshold for an EEG should be low, and a normal neurological examination should be documented.
       - text: "Urgent MRI brain before anything else"
@@ -113,25 +113,25 @@ stages:
       - text: "Tell her plainly Kundalini is not real"
         rating: poor
         feedback: |
-          **This option in full:** Tell her plainly that Kundalini is not real and this is bipolar disorder.
+          Tell her plainly that Kundalini is not real and this is bipolar disorder.
 
           She has told you exactly what will make her leave. You do not need to rule on Kundalini to treat mania.
       - text: "Mood stabiliser via common ground"
         rating: best
         feedback: |
-          **This option in full:** Use common ground - sleep, protecting the family's savings, and her own tradition's caution about forcing practice - to agree a plan including a mood stabiliser, pausing intensive practice, and close review; involve her teacher if she consents.
+          Use common ground - sleep, protecting the family's savings, and her own tradition's caution about forcing practice - to agree a plan including a mood stabiliser, pausing intensive practice, and close review; involve her teacher if she consents.
 
           Most yoga and meditation traditions warn against forcing or rushing energetic practices, and many teachers will support a pause. Restoring sleep and protecting finances are goals she and her husband may both accept. Start a mood stabiliser according to standard guidelines, and avoid antidepressants.
       - text: "Restart sertraline for her depression"
         rating: unsafe
         feedback: |
-          **This option in full:** Restart sertraline, since her original problem was depression.
+          Restart sertraline, since her original problem was depression.
 
           Starting an antidepressant in a manic episode risks worsening it. Her history of depression is a reason to suspect bipolar disorder, not a reason to treat with an SSRI now.
       - text: "Watch and wait for two more weeks"
         rating: poor
         feedback: |
-          **This option in full:** Watch and wait for two weeks, since she is not at risk.
+          Watch and wait for two weeks, since she is not at risk.
 
           She has already pledged a large part of the family's savings and has slept 3 hours a night for 2 weeks. Untreated mania can escalate quickly, and the financial and relational harm is already real.
     guide_links: ["red-flags#principles", "clinical-stance#language"]
@@ -149,7 +149,7 @@ stages:
       - text: "No disorder - support, lighter practice"
         rating: best
         feedback: |
-          **This option in full:** No disorder - note a religious or spiritual problem (Z65.8) if it is a focus of concern, offer psychoeducation and a less intensive practice schedule, agree warning signs, and offer follow-up.
+          No disorder - note a religious or spiritual problem (Z65.8) if it is a focus of concern, offer psychoeducation and a less intensive practice schedule, agree warning signs, and offer follow-up.
 
           Energy-like somatic sensations are common among intensive practitioners. With preserved sleep, function and insight, the right response is respectful support, a lighter practice schedule, and a clear route back if things change.
     guide_links: ["frameworks#dsm", "clinical-stance#why"]
